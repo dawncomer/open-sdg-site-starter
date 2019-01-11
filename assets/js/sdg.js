@@ -1,331 +1,410 @@
-!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("d3-array"),require("d3-axis"),require("d3-dispatch"),require("d3-drag"),require("d3-ease"),require("d3-scale"),require("d3-selection")):"function"==typeof define&&define.amd?define(["exports","d3-array","d3-axis","d3-dispatch","d3-drag","d3-ease","d3-scale","d3-selection"],e):e(t.d3=t.d3||{},t.d3,t.d3,t.d3,t.d3,t.d3,t.d3,t.d3)}(this,function(t,e,a,r,n,l,i,s){"use strict";function c(){function t(t){z=t.selection?t.selection():t,M=h[0]instanceof Date?i.scaleTime():i.scaleLinear(),M=M.domain(h).range([0,m]).clamp(!0),D=i.scaleLinear().range(M.range()).domain(M.range()).clamp(!0),q=q||M.tickFormat(),z.selectAll(".axis").data([null]).enter().append("g").attr("transform","translate(0,7)").attr("class","axis");var e=z.selectAll(".slider").data([null]),r=e.enter().append("g").attr("class","slider").attr("cursor","ew-resize").attr("transform","translate(0,0)").call(n.drag().on("start",function(){s.select(this).classed("active",!0);var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("start",e,a),d(a)}).on("drag",function(){var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("drag",e,a),d(a)}).on("end",function(){s.select(this).classed("active",!1);var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("end",e,a),d(a)}));r.append("line").attr("class","track").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","#bbb").attr("stroke-width",6).attr("stroke-linecap","round"),r.append("line").attr("class","track-inset").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","#eee").attr("stroke-width",4).attr("stroke-linecap","round"),r.append("line").attr("class","track-overlay").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","transparent").attr("stroke-width",40).attr("stroke-linecap","round").merge(e.select(".track-overlay"));var l=r.append("g").attr("class","parameter-value").attr("transform","translate("+M(p)+",0)").attr("font-family","sans-serif").attr("text-anchor","middle");l.append("path").attr("d",g).attr("fill","white").attr("stroke","#777"),x&&l.append("text").attr("font-size",10).attr("y",27).attr("dy",".71em").text(q(p)),t.select(".track").attr("x2",M.range()[1]),t.select(".track-inset").attr("x2",M.range()[1]),t.select(".track-overlay").attr("x2",M.range()[1]),t.select(".axis").call(a.axisBottom(M).tickFormat(q).ticks(w).tickValues(y)),z.select(".axis").select(".domain").remove(),t.select(".axis").attr("transform","translate(0,7)"),t.selectAll(".axis text").attr("fill","#aaa").attr("y",20).attr("dy",".71em").attr("text-anchor","middle"),t.selectAll(".axis line").attr("stroke","#aaa"),t.select(".parameter-value").attr("transform","translate("+M(p)+",0)"),c()}function c(){if(x){var t=[];z.selectAll(".axis .tick").each(function(e){t.push(Math.abs(e-p))});var a=e.scan(t);z.selectAll(".axis .tick text").attr("opacity",function(t,e){return e===a?0:1})}}function u(t){if(k){var a=(t-h[0])%k,r=t-a;return 2*a>k&&(r+=k),t instanceof Date?new Date(r):r}if(b){var n=e.scan(b.map(function(e){return Math.abs(t-e)}));return b[n]}return t}function d(e){p!==e&&(p=e,A.call("onchange",t,e),c())}function f(t,e){e=void 0!==e&&e;var a=z.select(".parameter-value");e&&(a=a.transition().ease(l.easeQuadOut).duration(o)),a.attr("transform","translate("+M(t)+",0)"),x&&z.select(".parameter-value text").text(q(t))}var p=0,v=0,h=[0,10],m=100,x=!0,g="M-5.5,-5.5v10l6,5.5l6,-5.5v-10z",k=null,y=null,b=null,q=null,w=null,A=r.dispatch("onchange","start","end","drag"),z=null,M=null,D=null;return t.min=function(e){return arguments.length?(h[0]=e,t):h[0]},t.max=function(e){return arguments.length?(h[1]=e,t):h[1]},t.domain=function(e){return arguments.length?(h=e,t):h},t.width=function(e){return arguments.length?(m=e,t):m},t.tickFormat=function(e){return arguments.length?(q=e,t):q},t.ticks=function(e){return arguments.length?(w=e,t):w},t.value=function(e){if(!arguments.length)return p;var a=D(M(e)),r=u(M.invert(a));return f(r,!0),d(r),t},t.default=function(e){return arguments.length?(v=e,p=e,t):v},t.step=function(e){return arguments.length?(k=e,t):k},t.tickValues=function(e){return arguments.length?(y=e,t):y},t.marks=function(e){return arguments.length?(b=e,t):b},t.handle=function(e){return arguments.length?(g=e,t):g},t.displayValue=function(e){return arguments.length?(x=e,t):x},t.on=function(){var e=A.on.apply(A,arguments);return e===A?t:e},t}var o=200;t.sliderHorizontal=function(){return c()},Object.defineProperty(t,"__esModule",{value:!0})});(function($, d3, window, document, undefined) {
+!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("d3-array"),require("d3-axis"),require("d3-dispatch"),require("d3-drag"),require("d3-ease"),require("d3-scale"),require("d3-selection")):"function"==typeof define&&define.amd?define(["exports","d3-array","d3-axis","d3-dispatch","d3-drag","d3-ease","d3-scale","d3-selection"],e):e(t.d3=t.d3||{},t.d3,t.d3,t.d3,t.d3,t.d3,t.d3,t.d3)}(this,function(t,e,a,r,n,l,i,s){"use strict";function c(){function t(t){z=t.selection?t.selection():t,M=h[0]instanceof Date?i.scaleTime():i.scaleLinear(),M=M.domain(h).range([0,m]).clamp(!0),D=i.scaleLinear().range(M.range()).domain(M.range()).clamp(!0),q=q||M.tickFormat(),z.selectAll(".axis").data([null]).enter().append("g").attr("transform","translate(0,7)").attr("class","axis");var e=z.selectAll(".slider").data([null]),r=e.enter().append("g").attr("class","slider").attr("cursor","ew-resize").attr("transform","translate(0,0)").call(n.drag().on("start",function(){s.select(this).classed("active",!0);var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("start",e,a),d(a)}).on("drag",function(){var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("drag",e,a),d(a)}).on("end",function(){s.select(this).classed("active",!1);var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("end",e,a),d(a)}));r.append("line").attr("class","track").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","#bbb").attr("stroke-width",6).attr("stroke-linecap","round"),r.append("line").attr("class","track-inset").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","#eee").attr("stroke-width",4).attr("stroke-linecap","round"),r.append("line").attr("class","track-overlay").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","transparent").attr("stroke-width",40).attr("stroke-linecap","round").merge(e.select(".track-overlay"));var l=r.append("g").attr("class","parameter-value").attr("transform","translate("+M(p)+",0)").attr("font-family","sans-serif").attr("text-anchor","middle");l.append("path").attr("d",g).attr("fill","white").attr("stroke","#777"),x&&l.append("text").attr("font-size",10).attr("y",27).attr("dy",".71em").text(q(p)),t.select(".track").attr("x2",M.range()[1]),t.select(".track-inset").attr("x2",M.range()[1]),t.select(".track-overlay").attr("x2",M.range()[1]),t.select(".axis").call(a.axisBottom(M).tickFormat(q).ticks(w).tickValues(y)),z.select(".axis").select(".domain").remove(),t.select(".axis").attr("transform","translate(0,7)"),t.selectAll(".axis text").attr("fill","#aaa").attr("y",20).attr("dy",".71em").attr("text-anchor","middle"),t.selectAll(".axis line").attr("stroke","#aaa"),t.select(".parameter-value").attr("transform","translate("+M(p)+",0)"),c()}function c(){if(x){var t=[];z.selectAll(".axis .tick").each(function(e){t.push(Math.abs(e-p))});var a=e.scan(t);z.selectAll(".axis .tick text").attr("opacity",function(t,e){return e===a?0:1})}}function u(t){if(k){var a=(t-h[0])%k,r=t-a;return 2*a>k&&(r+=k),t instanceof Date?new Date(r):r}if(b){var n=e.scan(b.map(function(e){return Math.abs(t-e)}));return b[n]}return t}function d(e){p!==e&&(p=e,A.call("onchange",t,e),c())}function f(t,e){e=void 0!==e&&e;var a=z.select(".parameter-value");e&&(a=a.transition().ease(l.easeQuadOut).duration(o)),a.attr("transform","translate("+M(t)+",0)"),x&&z.select(".parameter-value text").text(q(t))}var p=0,v=0,h=[0,10],m=100,x=!0,g="M-5.5,-5.5v10l6,5.5l6,-5.5v-10z",k=null,y=null,b=null,q=null,w=null,A=r.dispatch("onchange","start","end","drag"),z=null,M=null,D=null;return t.min=function(e){return arguments.length?(h[0]=e,t):h[0]},t.max=function(e){return arguments.length?(h[1]=e,t):h[1]},t.domain=function(e){return arguments.length?(h=e,t):h},t.width=function(e){return arguments.length?(m=e,t):m},t.tickFormat=function(e){return arguments.length?(q=e,t):q},t.ticks=function(e){return arguments.length?(w=e,t):w},t.value=function(e){if(!arguments.length)return p;var a=D(M(e)),r=u(M.invert(a));return f(r,!0),d(r),t},t.default=function(e){return arguments.length?(v=e,p=e,t):v},t.step=function(e){return arguments.length?(k=e,t):k},t.tickValues=function(e){return arguments.length?(y=e,t):y},t.marks=function(e){return arguments.length?(b=e,t):b},t.handle=function(e){return arguments.length?(g=e,t):g},t.displayValue=function(e){return arguments.length?(x=e,t):x},t.on=function(){var e=A.on.apply(A,arguments);return e===A?t:e},t}var o=200;t.sliderHorizontal=function(){return c()},Object.defineProperty(t,"__esModule",{value:!0})});/**
+ * TODO:
+ * Integrate with high-contrast switcher.
+ */
+(function($, L, chroma, window, document, undefined) {
 
   // Create the defaults once
-  var pluginName = 'sdgMap',
-    defaults = {
-      serviceUrl: 'https://geoportal1-ons.opendata.arcgis.com/datasets/686603e943f948acaa13fb5d2b0f1275_4.geojson',
-      width: 590,
-      height: 590,
-      nameProperty: 'lad16nm',
-      idProperty: 'lad16cd',
-      projectionFunc: d3.geoMercator,
-    };
+  var defaults = {
+
+    // Options for using tile imagery with leaflet.
+    tileURL: '[replace me]',
+    tileOptions: {
+      id: '[relace me]',
+      accessToken: '[replace me]',
+      attribution: '[replace me]',
+    },
+    // Zoom limits.
+    minZoom: 5,
+    maxZoom: 10,
+    // Visual/choropleth considerations.
+    colorRange: chroma.brewer.BuGn,
+    noValueColor: '#f0f0f0',
+    styleNormal: {
+      weight: 1,
+      opacity: 1,
+      color: '#888',
+      fillOpacity: 0.7
+    },
+    styleHighlighted: {
+      weight: 1,
+      opacity: 1,
+      color: '#111',
+      fillOpacity: 0.7
+    },
+    styleStatic: {
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0,
+      color: '#172d44',
+      dashArray: '5,5',
+    },
+  };
+
+  // Defaults for each map layer.
+  var mapLayerDefaults = {
+    min_zoom: 0,
+    max_zoom: 20,
+    serviceUrl: '[replace me]',
+    nameProperty: '[replace me]',
+    idProperty: '[replace me]',
+    staticBorders: false,
+  };
 
   function Plugin(element, options) {
+
     this.element = element;
-    this.options = $.extend({}, defaults, options);
+    this.options = $.extend(true, {}, defaults, options.mapOptions);
+    this.mapLayers = [];
+    this.geoData = options.geoData;
+    this.geoCodeRegEx = options.geoCodeRegEx;
+
+    // Require at least one geoLayer.
+    if (!options.mapLayers.length) {
+      console.log('Map disabled, no mapLayers in options.');
+      return;
+    }
+
+    // Apply geoLayer defaults.
+    for (var i = 0; i < options.mapLayers.length; i++) {
+      this.mapLayers[i] = $.extend(true, {}, mapLayerDefaults, options.mapLayers[i]);
+    }
 
     this._defaults = defaults;
-    this._name = pluginName;
+    this._name = 'sdgMap';
 
-    this.geoCodeRegEx = this.options.geoCodeRegEx;
+    this.valueRange = [_.min(_.pluck(this.geoData, 'Value')), _.max(_.pluck(this.geoData, 'Value'))];
+    this.colorScale = chroma.scale(this.options.colorRange)
+      .domain(this.valueRange)
+      .classes(this.options.colorRange.length);
 
-    this.valueRange = [_.min(_.pluck(this.options.geoData, 'Value')), _.max(_.pluck(this.options.geoData, 'Value'))];
-    this.colorRange = ['#b4c5c1', '#004433'];
-
-    this.years = _.uniq(_.pluck(this.options.geoData, 'Year'));
+    this.years = _.uniq(_.pluck(this.geoData, 'Year'));
     this.currentYear = this.years[0];
-
-    this.noValueFillColor = '#f0f0f0';
 
     this.init();
   }
 
   Plugin.prototype = {
-    init: function() {
-      var centered, projection, path,
-        g, effectLayer, resetButton,
-        tooltip, slider, infoPanel,
-        zoomControls,
-        that = this,
-        width = this.options.width,
-        height = this.options.height;
 
-      // Define color scale
-      var color = d3.scaleLinear()
-        .domain(this.valueRange)
-        //.clamp(true)
-        .range(this.colorRange);
-
-      // Load map data
-      d3.json(this.options.serviceUrl, function(error, mapData) {
-
-        if(error || !mapData.features) {
-          return showError.call(that);
-        }
-
-        var features = mapData.features;
-
-        initialiseUI.call(that);
-
-        projection = that.options.projectionFunc().fitSize([width, height], mapData);
-        path = d3.geoPath().projection(projection);
-
-        // Draw each geographical area as a path
-        that.mapLayer.selectAll('path')
-          .data(features)
-          .enter().append('path')
-          .attr('d', path)
-          .attr('vector-effect', 'non-scaling-stroke')
-          .style('fill', getFill)
-          .style('stroke', '#ccc')
-          .on('mouseover', mouseover)
-          .on('mouseout', mouseout.bind(that))
-          .on('mousemove', showTooltip.bind(that))
-          .on('click', clicked.bind(that));
-
-        appendScale.call(that);
-
+    // Add time series to GeoJSON data and normalize the name and geocode.
+    prepareGeoJson: function(geoJson, idProperty, nameProperty) {
+      var geoData = this.geoData;
+      geoJson.features.forEach(function(feature) {
+        var geocode = feature.properties[idProperty];
+        var name = feature.properties[nameProperty];
+        // First add the time series data.
+        var records = _.where(geoData, { GeoCode: geocode });
+        records.forEach(function(record) {
+          // Add the Year data into the properties.
+          feature.properties[record.Year] = record.Value;
+        });
+        // Next normalize the geocode and name.
+        feature.properties.name = name;
+        feature.properties.geocode = geocode;
+        delete feature.properties[idProperty];
+        delete feature.properties[nameProperty];
       });
+      return geoJson;
+    },
 
-      function initialiseUI() {
+    // Zoom to a feature.
+    zoomToFeature: function(layer) {
+      this.map.fitBounds(layer.getBounds());
+    },
 
-        $(this.element).html('');
-
-        this.svg = d3.select(this.element).append("svg")
-          .attr("width", this.options.width)
-          .attr("height", this.options.height);
-
-        // Add background
-        this.svg.append('rect')
-          .attr('class', 'background')
-          .attr('width', this.options.width)
-          .attr('height', this.options.height)
-          .on('click', clicked);
-
-        g = this.svg.append('g');
-
-        effectLayer = g.append('g')
-          .classed('effect-layer', true);
-
-        this.mapLayer = g.append('g')
-          .classed('map-layer', true);
-
-        tooltip = $('<div />').attr('class', 'tooltip hidden');
-        $(this.element).append(tooltip);
-
-        resetButton = $('<button />')
-          .attr('id', 'resetButton')
-          .html('<i class="fa fa-refresh"></i>Reset')
-          .on('click', clicked.bind(this, null));
-        $(this.element).append(resetButton);
-
-        slider = d3.sliderHorizontal()
-          .min(_.min(this.years))
-          .max(_.max(this.years))
-          .step(1)
-          .width(200)
-          .tickFormat(d3.format('d'))
-          .displayValue(false)
-          .tickValues(this.years)
-          .on('onchange', updateCurrentYear.bind(this));
-
-        $(this.element).append($('<div />').attr('id', 'slider'));
-
-        d3.select("#slider").append("svg")
-          .attr("width", 275)
-          .attr("height", 100)
-          .append("g")
-          .attr("transform", "translate(30,30)")
-          .call(slider);
-
-        infoPanel = $('<div />').attr('id', 'infoPanel');
-        $(this.element).append(infoPanel);
+    // Select a feature.
+    highlightFeature: function(layer) {
+      // Abort if the layer is not on the map.
+      if (!this.map.hasLayer(layer)) {
+        return;
       }
-
-      function appendScale() {
-        var key = d3.select(this.element).append("svg").attr("id", "key").attr("width", this.options.width).attr("height", 40);
-
-        var length = 5;
-        var color = d3.scaleLinear().domain([0, length - 1]).range(this.colorRange);
-        var value = d3.scaleLinear().domain([0, length]).range(this.valueRange);
-
-        for (var i = 0; i < length; i++) {
-          key.append('rect')
-            .attr('x', i * this.options.width / 5)
-            .attr('y', 0)
-            .attr('width', this.options.width / 5)
-            .attr('height', 20)
-            .attr('fill', color(i));
+      // Update the style.
+      layer.setStyle(this.options.styleHighlighted);
+      // Add a tooltip if not already there.
+      if (!layer.getTooltip()) {
+        var tooltipContent = layer.feature.properties.name;
+        var tooltipData = this.getData(layer.feature.properties);
+        if (tooltipData) {
+          tooltipContent += ': ' + tooltipData;
         }
+        layer.bindTooltip(tooltipContent, {
+          permanent: true,
+        }).addTo(this.map);
+      }
+      if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+      }
+      this.updateStaticLayers();
+    },
 
-        for (var i = 0; i < length; i++) {
-          key.append('text')
-            .attr('x', i * this.options.width / 5)
-            .attr('y', 34)
-            .attr('font-size', 13)
-            .html(Math.floor(value(i)));
-        }
+    // Unselect a feature.
+    unhighlightFeature: function(layer) {
+
+      // Reset the feature's style.
+      layer.setStyle(this.options.styleNormal);
+
+      // Remove the tooltip if necessary.
+      if (layer.getTooltip()) {
+        layer.unbindTooltip();
       }
 
-      function showError() {
-        $(this.element).html(
-          $('<div />').attr('class', 'alert alert-danger')
-                      .html('Sorry, the map service is currently unavailable')
-        );
-      }
+      // Make sure other selections are still highlighted.
+      var plugin = this;
+      this.selectionLegend.selections.forEach(function(selection) {
+        plugin.highlightFeature(selection);
+      });
+    },
 
-      // Get area name
-      function getName(d){
-        return d && d.properties ? d.properties[that.options.nameProperty] : null;
-      }
+    // Get all of the GeoJSON layers.
+    getAllLayers: function() {
+      return L.featureGroup(this.dynamicLayers.layers);
+    },
 
-      // Get
-      function getValue(d) {
-        var geoDataItem = _.findWhere(this.options.geoData, {
-          GeoCode: d.properties[this.options.idProperty],
-          Year: +this.currentYear
-        });
+    // Get only the visible GeoJSON layers.
+    getVisibleLayers: function() {
+      // Unfortunately relies on an internal of the ZoomShowHide library.
+      return this.dynamicLayers._layerGroup;
+    },
 
-        return geoDataItem ? geoDataItem.Value : undefined;
-      }
+    updateStaticLayers: function() {
+      // Make sure the static borders are always visible.
+      this.staticLayers._layerGroup.eachLayer(function(layer) {
+        layer.bringToFront();
+      });
+    },
 
-      function getYearValues(d) {
-        return _.where(this.options.geoData, {
-          GeoCode: d.properties[this.options.idProperty]
-        });
-      }
-
-      function updateCurrentYear(year) {
-        this.currentYear = year.toString();
-        this.mapLayer.selectAll('path').transition().duration(500)
-          .style('fill', function(d){  return getFill(d); });
-      }
-
-      // Get area color
-      function getFill(d){
-        if(that.isInScope(d)) {
-          var value = getValue.call(that, d);
-          return value === undefined ? that.noValueFillColor : color(value);
-        } else {
-          return 'transparent';
-        }
-      }
-
-      function getYearByYearMarkup(d) {
-        var yearValues = getYearValues.call(this, d),
-          isInScope = this.isInScope(d),
-          content = '<h2>' + getName(d) + '</h2>';
-
-        if(yearValues.length) {
-          content += '<table><tr>' +
-            _.map(_.pluck(yearValues, 'Year'), function(year) { return '<th>' + year + '</th>'; }).join('') +
-            '</tr><tr>' +
-            _.map(_.pluck(yearValues, 'Value'), function(value) { return '<td>' + value + '</td>'; }).join('') +
-            '</tr></table>';
-        } else {
-          if(!isInScope) {
-            content += '<p>Area out of scope</p>';
-          } else {
-            content += '<p>No data available</p>';
+    // Update the colors of the Features on the map.
+    updateColors: function() {
+      var plugin = this;
+      this.getAllLayers().eachLayer(function(layer) {
+        layer.setStyle(function(feature) {
+          return {
+            fillColor: plugin.getColor(feature.properties),
           }
-        }
+        });
+      });
+    },
 
-        return content;
+    // Get the data from a feature's properties, according to the current year.
+    getData: function(props) {
+      if (props[this.currentYear]) {
+        return props[this.currentYear];
       }
+      return false;
+    },
 
-      function showInfoPanel(d) {
-        infoPanel.html(getYearByYearMarkup.call(this, d));
-        infoPanel.fadeIn();
+    // Choose a color for a GeoJSON feature.
+    getColor: function(props) {
+      var data = this.getData(props);
+      if (data) {
+        return this.colorScale(data).hex();
       }
-
-      function hideInfoPanel() {
-        infoPanel.fadeOut();
-      }
-
-      // When clicked, zoom in
-      function clicked(d) {
-        var x, y, k;
-
-        if(!that.isInScope(d)) {
-          return;
-        }
-
-        // Compute centroid of the selected path
-        if (d && centered !== d) {
-          var centroid = path.centroid(d);
-          x = centroid[0];
-          y = centroid[1];
-          centered = d;
-          var bounds = path.bounds(d),
-            boundsWidth = bounds[1][0] - bounds[0][0],
-            boundsHeight = bounds[1][1] - bounds[0][1];
-          k = Math.min(Math.floor(width / boundsWidth), Math.floor(height / boundsHeight)) * 0.35;
-
-          showInfoPanel.call(this, d);
-          resetButton.show();
-
-        } else {
-          x = width / 2;
-          y = height / 2;
-          k = 1;
-          centered = null;
-
-          hideInfoPanel();
-          resetButton.hide();
-        }
-
-        // Highlight the clicked area
-        this.mapLayer
-          .selectAll('path')
-          .style('stroke', function(d) {
-            return centered && d === centered ? '#000' : '#ccc';
-          })
-          .attr('class', function(d) {
-            return centered && d === centered ? 'selected' : '';
-          });
-
-        // Zoom
-        g.transition()
-          .duration(750)
-          .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
-      }
-
-      function mouseover(d){
-        // ensure that this element doesn't go after a selected element, if any:
-        var selected = d3.select('path.selected').node();
-
-        if(selected) {
-          d3.select(this.parentNode.insertBefore(this, selected)).style('stroke', '#000');
-
-        } else {
-          d3.select(this.parentNode.appendChild(this))
-            .style('stroke', '#000');
-        }
-      }
-
-      function mouseout(d){
-        // Reset area color
-        this.mapLayer.selectAll('path')
-          .style('stroke', function(d){ return centered && d === centered ? '#000' : '#ccc';});
-
-        tooltip.addClass("hidden");
-      }
-
-      function showTooltip(d) {
-        var mouse = d3.mouse(this.svg.node())
-          .map( function(d) { return parseInt(d); } );
-
-        tooltip.removeClass("hidden")
-          .attr("style", "left:"+(mouse[0] + 10)+"px;top:"+(mouse[1] + 10)+"px")
-          .html(getYearByYearMarkup.call(this, d));// +  ' ' + getValue.call(that, d) + ' (' + d.properties.lad16cd + ')' );
+      else {
+        return this.options.noValueColor;
       }
     },
-    isInScope: function(d) {
-      return d === null ? true : d.properties[this.options.idProperty].match(this.options.geoCodeRegEx);
-    }
+
+    // Initialize the map itself.
+    init: function() {
+
+      // Create the map.
+      this.map = L.map(this.element, {
+        minZoom: this.options.minZoom,
+        maxZoom: this.options.maxZoom,
+        zoomControl: false,
+      });
+      this.map.setView([0, 0], 0);
+      this.dynamicLayers = new ZoomShowHide();
+      this.dynamicLayers.addTo(this.map);
+      this.staticLayers = new ZoomShowHide();
+      this.staticLayers.addTo(this.map);
+
+      // Add zoom control.
+      this.map.addControl(L.Control.zoomHome());
+
+      // Add full-screen functionality.
+      this.map.addControl(new L.Control.Fullscreen());
+
+      // Add scale.
+      this.map.addControl(L.control.scale({position: 'bottomright'}));
+
+      // Add tile imagery.
+      L.tileLayer(this.options.tileURL, this.options.tileOptions).addTo(this.map);
+
+      // Because after this point, "this" rarely works.
+      var plugin = this;
+
+      // Add the year slider.
+      this.map.addControl(L.Control.yearSlider({
+        yearStart: this.years[0],
+        yearEnd: this.years[this.years.length - 1],
+        yearChangeCallback: function(e) {
+          plugin.currentYear = new Date(e.time).getFullYear();
+          plugin.updateColors();
+          plugin.selectionLegend.update();
+        }
+      }));
+
+      // Add the selection legend.
+      this.selectionLegend = L.Control.selectionLegend(plugin);
+      this.map.addControl(this.selectionLegend);
+
+      // Add the download button.
+      this.map.addControl(L.Control.downloadGeoJson(plugin));
+
+      // At this point we need to load the GeoJSON layer/s.
+      var geoURLs = this.mapLayers.map(function(item) {
+        return $.getJSON(item.serviceUrl);
+      });
+      $.when.apply($, geoURLs).done(function() {
+
+        var geoJsons = arguments;
+        for (var i in geoJsons) {
+          // First add the geoJson as static (non-interactive) borders.
+          if (plugin.mapLayers[i].staticBorders) {
+            var staticLayer = L.geoJson(geoJsons[i][0], {
+              style: plugin.options.styleStatic,
+              interactive: false,
+            });
+            // Static layers should start appear when zooming past their dynamic
+            // layer, and stay visible after that.
+            staticLayer.min_zoom = plugin.mapLayers[i].max_zoom + 1;
+            staticLayer.max_zoom = plugin.options.maxZoom;
+            plugin.staticLayers.addLayer(staticLayer);
+          }
+          // Now go on to add the geoJson again as choropleth dynamic regions.
+          var idProperty = plugin.mapLayers[i].idProperty;
+          var nameProperty = plugin.mapLayers[i].nameProperty;
+          var geoJson = plugin.prepareGeoJson(geoJsons[i][0], idProperty, nameProperty);
+
+          var layer = L.geoJson(geoJson, {
+            style: plugin.options.styleNormal,
+            onEachFeature: onEachFeature,
+          });
+          // Set the "boundaries" for when this layer should be zoomed out of.
+          layer.min_zoom = plugin.mapLayers[i].min_zoom;
+          layer.max_zoom = plugin.mapLayers[i].max_zoom;
+          // Listen for when this layer gets zoomed in or out of.
+          layer.on('remove', zoomOutHandler);
+          layer.on('add', zoomInHandler);
+          // Save the GeoJSON object for direct access (download) later.
+          layer.geoJsonObject = geoJson;
+          // Add the layer to the ZoomShowHide group.
+          plugin.dynamicLayers.addLayer(layer);
+        }
+        plugin.updateColors();
+
+        // Now that we have layers, we can add the search feature.
+        plugin.searchControl = new L.Control.Search({
+          layer: plugin.getAllLayers(),
+          propertyName: 'name',
+          marker: false,
+          moveToLocation: function(latlng) {
+            plugin.zoomToFeature(latlng.layer);
+            if (!plugin.selectionLegend.isSelected(latlng.layer)) {
+              plugin.highlightFeature(latlng.layer);
+              plugin.selectionLegend.addSelection(latlng.layer);
+            }
+          },
+          autoCollapse: true,
+        });
+        plugin.map.addControl(plugin.searchControl);
+        // The search plugin messes up zoomShowHide, so we have to reset that
+        // with this hacky method. Is there a better way?
+        var zoom = plugin.map.getZoom();
+        plugin.map.setZoom(zoom + 1);
+        plugin.map.setZoom(zoom);
+
+        // The list of handlers to apply to each feature on a GeoJson layer.
+        function onEachFeature(feature, layer) {
+          layer.on('click', clickHandler);
+          layer.on('mouseover', mouseoverHandler);
+          layer.on('mouseout', mouseoutHandler);
+        }
+        // Event handler for click/touch.
+        function clickHandler(e) {
+          var layer = e.target;
+          if (plugin.selectionLegend.isSelected(layer)) {
+            plugin.selectionLegend.removeSelection(layer);
+            plugin.unhighlightFeature(layer);
+          }
+          else {
+            plugin.selectionLegend.addSelection(layer);
+            plugin.highlightFeature(layer);
+            plugin.zoomToFeature(layer);
+          }
+        }
+        // Event handler for mouseover.
+        function mouseoverHandler(e) {
+          var layer = e.target;
+          if (!plugin.selectionLegend.isSelected(layer)) {
+            plugin.highlightFeature(layer);
+          }
+        }
+        // Event handler for mouseout.
+        function mouseoutHandler(e) {
+          var layer = e.target;
+          if (!plugin.selectionLegend.isSelected(layer)) {
+            plugin.unhighlightFeature(layer);
+          }
+        }
+        // Event handler for when a geoJson layer is zoomed out of.
+        function zoomOutHandler(e) {
+          var geoJsonLayer = e.target;
+          // For desktop, we have to make sure that no features remain
+          // highlighted, as they might have been highlighted on mouseover.
+          geoJsonLayer.eachLayer(function(layer) {
+            if (!plugin.selectionLegend.isSelected(layer)) {
+              plugin.unhighlightFeature(layer);
+            }
+          });
+          plugin.updateStaticLayers();
+        }
+        // Event handler for when a geoJson layer is zoomed into.
+        function zoomInHandler(e) {
+          plugin.updateStaticLayers();
+        }
+      });
+
+      // Perform some last-minute tasks when the user clicks on the "Map" tab.
+      $('.map .nav-link').click(function() {
+        setTimeout(function() {
+          $('#map #loader-container').hide();
+          // Leaflet needs "invalidateSize()" if it was originally rendered in a
+          // hidden element. So we need to do that when the tab is clicked.
+          plugin.map.invalidateSize();
+          // Also zoom in/out as needed.
+          plugin.map.fitBounds(plugin.getVisibleLayers().getBounds());
+          // Limit the panning to what we care about.
+          plugin.map.setMaxBounds(plugin.getVisibleLayers().getBounds());
+          // Make sure the info pane is not too wide for the map.
+          var $legendPane = $('.selection-legend.leaflet-control');
+          var widthPadding = 20;
+          var maxWidth = $('#map').width() - widthPadding;
+          if ($legendPane.width() > maxWidth) {
+            $legendPane.width(maxWidth);
+          }
+          // Make sure the map is not too high.
+          var heightPadding = 75;
+          var maxHeight = $(window).height() - heightPadding;
+          if ($('#map').height() > maxHeight) {
+            $('#map').height(maxHeight);
+          }
+        }, 500);
+      });
+    },
   };
 
   // A really lightweight plugin wrapper around the constructor,
   // preventing against multiple instantiations
-  $.fn[pluginName] = function(options) {
+  $.fn['sdgMap'] = function(options) {
     return this.each(function() {
-      if (!$.data(this, 'plugin_' + pluginName)) {
-        $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
+      if (!$.data(this, 'plugin_sdgMap')) {
+        $.data(this, 'plugin_sdgMap', new Plugin(this, options));
       }
     });
   };
-})(jQuery, d3, window, document);
+})(jQuery, L, chroma, window, document);
 Chart.plugins.register({
   id: 'rescaler',
   beforeInit: function (chart, options) {
@@ -472,7 +551,7 @@ function imageFix(contrast) {
   } else {
     // Remove high-contrast
     _.each($('img[src*=high-contrast]'), function(goalImage){
-      $(goalImage).attr('src', $(goalImage).attr('src').replace('high-contrast', ''));
+      $(goalImage).attr('src', $(goalImage).attr('src').replace('high-contrast/', ''));
     })
   }
 };
@@ -1081,16 +1160,18 @@ indicatorModel.prototype = {
   }
 };
 var mapView = function () {
-  
+
   "use strict";
-  
+
   this.initialise = function(geoData, geoCodeRegEx) {
     $('.map').show();
     $('#map').sdgMap({
       geoData: geoData,
-      geoCodeRegEx: geoCodeRegEx
+      geoCodeRegEx: geoCodeRegEx,
+      mapOptions: null,
+      mapLayers: null,
     });
-  }
+  };
 };
 var indicatorView = function (model, options) {
 
@@ -2013,4 +2094,213 @@ $(function() {
 });/*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
 "document"in self&&("classList"in document.createElement("_")&&(!document.createElementNS||"classList"in document.createElementNS("http://www.w3.org/2000/svg","g"))||!function(t){"use strict";if("Element"in t){var e="classList",n="prototype",i=t.Element[n],s=Object,r=String[n].trim||function(){return this.replace(/^\s+|\s+$/g,"")},o=Array[n].indexOf||function(t){for(var e=0,n=this.length;n>e;e++)if(e in this&&this[e]===t)return e;return-1},a=function(t,e){this.name=t,this.code=DOMException[t],this.message=e},c=function(t,e){if(""===e)throw new a("SYNTAX_ERR","An invalid or illegal string was specified");if(/\s/.test(e))throw new a("INVALID_CHARACTER_ERR","String contains an invalid character");return o.call(t,e)},l=function(t){for(var e=r.call(t.getAttribute("class")||""),n=e?e.split(/\s+/):[],i=0,s=n.length;s>i;i++)this.push(n[i]);this._updateClassName=function(){t.setAttribute("class",""+this)}},u=l[n]=[],h=function(){return new l(this)};if(a[n]=Error[n],u.item=function(t){return this[t]||null},u.contains=function(t){return t+="",-1!==c(this,t)},u.add=function(){var t,e=arguments,n=0,i=e.length,s=!1;do t=e[n]+"",-1===c(this,t)&&(this.push(t),s=!0);while(++n<i);s&&this._updateClassName()},u.remove=function(){var t,e,n=arguments,i=0,s=n.length,r=!1;do for(t=n[i]+"",e=c(this,t);-1!==e;)this.splice(e,1),r=!0,e=c(this,t);while(++i<s);r&&this._updateClassName()},u.toggle=function(t,e){t+="";var n=this.contains(t),i=n?e!==!0&&"remove":e!==!1&&"add";return i&&this[i](t),e===!0||e===!1?e:!n},u.toString=function(){return this.join(" ")},s.defineProperty){var f={get:h,enumerable:!0,configurable:!0};try{s.defineProperty(i,e,f)}catch(g){(void 0===g.number||-2146823252===g.number)&&(f.enumerable=!1,s.defineProperty(i,e,f))}}else s[n].__defineGetter__&&i.__defineGetter__(e,h)}}(self),function(){"use strict";var t=document.createElement("_");if(t.classList.add("c1","c2"),!t.classList.contains("c2")){var e=function(t){var e=DOMTokenList.prototype[t];DOMTokenList.prototype[t]=function(t){var n,i=arguments.length;for(n=0;i>n;n++)t=arguments[n],e.call(this,t)}};e("add"),e("remove")}if(t.classList.toggle("c3",!1),t.classList.contains("c3")){var n=DOMTokenList.prototype.toggle;DOMTokenList.prototype.toggle=function(t,e){return 1 in arguments&&!this.contains(t)==!e?e:n.call(this,t)}}t=null}());/*! modernizr 3.5.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-blobconstructor-localstorage-setclasses !*/
- !function(e,n,o){function s(e,n){return typeof e===n}function t(){var e,n,o,t,a,l,c;for(var f in i)if(i.hasOwnProperty(f)){if(e=[],n=i[f],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(o=0;o<n.options.aliases.length;o++)e.push(n.options.aliases[o].toLowerCase());for(t=s(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)l=e[a],c=l.split("."),1===c.length?Modernizr[c[0]]=t:(!Modernizr[c[0]]||Modernizr[c[0]]instanceof Boolean||(Modernizr[c[0]]=new Boolean(Modernizr[c[0]])),Modernizr[c[0]][c[1]]=t),r.push((t?"":"no-")+c.join("-"))}}function a(e){var n=c.className,o=Modernizr._config.classPrefix||"";if(f&&(n=n.baseVal),Modernizr._config.enableJSClass){var s=new RegExp("(^|\\s)"+o+"no-js(\\s|$)");n=n.replace(s,"$1"+o+"js$2")}Modernizr._config.enableClasses&&(n+=" "+o+e.join(" "+o),f?c.className.baseVal=n:c.className=n)}var r=[],i=[],l={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var o=this;setTimeout(function(){n(o[e])},0)},addTest:function(e,n,o){i.push({name:e,fn:n,options:o})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr,Modernizr.addTest("blobconstructor",function(){try{return!!new Blob}catch(e){return!1}},{aliases:["blob-constructor"]}),Modernizr.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(n){return!1}});var c=n.documentElement,f="svg"===c.nodeName.toLowerCase();t(),a(r),delete l.addTest,delete l.addAsyncTest;for(var u=0;u<Modernizr._q.length;u++)Modernizr._q[u]();e.Modernizr=Modernizr}(window,document);
+ !function(e,n,o){function s(e,n){return typeof e===n}function t(){var e,n,o,t,a,l,c;for(var f in i)if(i.hasOwnProperty(f)){if(e=[],n=i[f],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(o=0;o<n.options.aliases.length;o++)e.push(n.options.aliases[o].toLowerCase());for(t=s(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)l=e[a],c=l.split("."),1===c.length?Modernizr[c[0]]=t:(!Modernizr[c[0]]||Modernizr[c[0]]instanceof Boolean||(Modernizr[c[0]]=new Boolean(Modernizr[c[0]])),Modernizr[c[0]][c[1]]=t),r.push((t?"":"no-")+c.join("-"))}}function a(e){var n=c.className,o=Modernizr._config.classPrefix||"";if(f&&(n=n.baseVal),Modernizr._config.enableJSClass){var s=new RegExp("(^|\\s)"+o+"no-js(\\s|$)");n=n.replace(s,"$1"+o+"js$2")}Modernizr._config.enableClasses&&(n+=" "+o+e.join(" "+o),f?c.className.baseVal=n:c.className=n)}var r=[],i=[],l={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var o=this;setTimeout(function(){n(o[e])},0)},addTest:function(e,n,o){i.push({name:e,fn:n,options:o})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr,Modernizr.addTest("blobconstructor",function(){try{return!!new Blob}catch(e){return!1}},{aliases:["blob-constructor"]}),Modernizr.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(n){return!1}});var c=n.documentElement,f="svg"===c.nodeName.toLowerCase();t(),a(r),delete l.addTest,delete l.addAsyncTest;for(var u=0;u<Modernizr._q.length;u++)Modernizr._q[u]();e.Modernizr=Modernizr}(window,document);/*
+ * Leaflet download map.
+ *
+ * This is a Leaflet control for downloading the current GeoJSON layer.
+ */
+(function () {
+  "use strict";
+
+  L.Control.DownloadGeoJson = L.Control.extend({
+
+    initialize: function(plugin) {
+      this.plugin = plugin;
+      this.setPosition('topleft');
+    },
+
+    onAdd: function() {
+      var div = L.DomUtil.create('div', 'download-geojson leaflet-bar');
+      div.innerHTML = '<a id="download-geojson-anchor-elem" style="display:none;"></a>';
+      var trigger = L.DomUtil.create('a', 'download-geojson-button leaflet-bar-part', div);
+      trigger.innerHTML = '<i aria-hidden title="Download" class="fa fa-download"></i>' +
+        '<span class="visuallyhidden">Download</span>';
+      var plugin = this.plugin;
+      L.DomEvent.on(trigger, 'click', (function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        plugin.getVisibleLayers().eachLayer(function(layer) {
+          var dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(layer.geoJsonObject));
+          var dlAnchorElem = document.getElementById('download-geojson-anchor-elem');
+          dlAnchorElem.setAttribute('href', dataStr);
+          dlAnchorElem.setAttribute('download', 'map.geo.json');
+          dlAnchorElem.click();
+        });
+      }));
+
+      return div;
+    },
+
+  });
+
+  // Factory function for this class.
+  L.Control.downloadGeoJson = function(plugin) {
+    return new L.Control.DownloadGeoJson(plugin);
+  };
+}());
+
+/*
+ * Leaflet selection legend.
+ *
+ * This is a Leaflet control designed to keep track of selected layers on a map
+ * and visualize the selections as stacked bar graphs.
+ */
+(function () {
+  "use strict";
+
+  L.Control.SelectionLegend = L.Control.extend({
+
+    initialize: function(plugin) {
+      this.selections = [];
+      this.plugin = plugin;
+    },
+
+    addSelection: function(selection) {
+      this.selections.push(selection);
+      this.update();
+    },
+
+    removeSelection: function(selection) {
+      var index = this.selections.indexOf(selection);
+      this.selections.splice(index, 1);
+      this.update();
+    },
+
+    isSelected: function(selection) {
+      return (this.selections.indexOf(selection) !== -1);
+    },
+
+    onAdd: function() {
+      var controlTpl = '' +
+        '<ul id="selection-list"></ul>' +
+        '<div class="legend-swatches">' +
+          '{legendSwatches}' +
+        '</div>' +
+        '<div class="legend-values">' +
+          '<span class="legend-value left">{lowValue}</span>' +
+          '<span class="arrow left"></span>' +
+          '<span class="legend-value right">{highValue}</span>' +
+          '<span class="arrow right"></span>' +
+        '</div>';
+      var swatchTpl = '<span class="legend-swatch" style="width:{width}%; background:{color};"></span>';
+      var swatchWidth = 100 / this.plugin.options.colorRange.length;
+      var swatches = this.plugin.options.colorRange.map(function(swatchColor) {
+        return L.Util.template(swatchTpl, {
+          width: swatchWidth,
+          color: swatchColor,
+        });
+      }).join('');
+      var div = L.DomUtil.create('div', 'selection-legend');
+      div.innerHTML = L.Util.template(controlTpl, {
+        lowValue: this.plugin.valueRange[0],
+        highValue: this.plugin.valueRange[1],
+        legendSwatches: swatches,
+      });
+      return div;
+    },
+
+    update: function() {
+      var selectionList = L.DomUtil.get('selection-list');
+      var selectionTpl = '' +
+        '<li class="{valueStatus}">' +
+          '<span class="selection-name">{name}</span>' +
+          '<span class="selection-value" style="left: {percentage}%;">{value}</span>' +
+          '<span class="selection-bar" style="width: {percentage}%;"></span>' +
+          '<i class="selection-close fa fa-remove"></i>' +
+        '</li>';
+      var plugin = this.plugin;
+      var valueRange = this.plugin.valueRange;
+      selectionList.innerHTML = this.selections.map(function(selection) {
+        var value = plugin.getData(selection.feature.properties);
+        var percentage, valueStatus;
+        if (value) {
+          valueStatus = 'has-value';
+          var fraction = (value - valueRange[0]) / (valueRange[1] - valueRange[0]);
+          percentage = Math.round(fraction * 100);
+        }
+        else {
+          value = '';
+          valueStatus = 'no-value';
+          percentage = 0;
+        }
+        return L.Util.template(selectionTpl, {
+          name: selection.feature.properties.name,
+          valueStatus: valueStatus,
+          percentage: percentage,
+          value: value,
+        });
+      }).join('');
+
+      // Assign click behavior.
+      var control = this;
+      $('#selection-list li').click(function(e) {
+        var index = $(e.target).closest('li').index()
+        var selection = control.selections[index];
+        control.removeSelection(selection);
+        control.plugin.unhighlightFeature(selection);
+      });
+    }
+
+  });
+
+  // Factory function for this class.
+  L.Control.selectionLegend = function(plugin) {
+    return new L.Control.SelectionLegend(plugin);
+  };
+}());
+
+/*
+ * Leaflet year Slider.
+ *
+ * This is merely a specific configuration of Leaflet of L.TimeDimension.
+ * See here: https://github.com/socib/Leaflet.TimeDimension
+ */
+(function () {
+  "use strict";
+
+  var defaultOptions = {
+    // YearSlider options.
+    yearChangeCallback: null,
+    yearStart: 2000,
+    yearEnd: 2018,
+    // TimeDimensionControl options.
+    timeSliderDragUpdate: true,
+    speedSlider: false,
+    position: 'bottomleft',
+    // Player options.
+    playerOptions: {
+      transitionTime: 1000,
+      loop: false,
+      startOver: true
+    },
+  };
+
+  L.Control.YearSlider = L.Control.TimeDimension.extend({
+
+    // Hijack the displayed date format.
+    _getDisplayDateFormat: function(date){
+      return date.getFullYear();
+    }
+
+  });
+
+  // Helper function to compose the full widget.
+  L.Control.yearSlider = function(options) {
+    // Extend the defaults.
+    options = L.Util.extend(defaultOptions, options);
+    // Hardcode the timeDimension to year intervals.
+    options.timeDimension = new L.TimeDimension({
+      period: 'P1Y',
+      timeInterval: options.yearStart + '-01-02/' + options.yearEnd + '-01-02',
+      currentTime: new Date(options.yearStart + '-01-02').getTime(),
+    });
+    // Create the player.
+    options.player = new L.TimeDimension.Player(options.playerOptions, options.timeDimension);
+    // Listen for time changes.
+    if (typeof options.yearChangeCallback === 'function') {
+      options.timeDimension.on('timeload', options.yearChangeCallback);
+    };
+    // Return the control.
+    return new L.Control.YearSlider(options);
+  };
+}());
