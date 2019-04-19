@@ -44,7 +44,7 @@
   // Defaults for each map layer.
   var mapLayerDefaults = {
     min_zoom: 0,
-    max_zoom: 20,
+    max_zoom: 10,
     serviceUrl: '[replace me]',
     nameProperty: '[replace me]',
     idProperty: '[replace me]',
@@ -78,7 +78,7 @@
       .domain(this.valueRange)
       .classes(this.options.colorRange.length);
 
-    this.years = _.uniq(_.pluck(this.geoData, 'Year'));
+    this.years = _.uniq(_.pluck(this.geoData, 'Year')).sort();
     this.currentYear = this.years[0];
 
     this.init();
@@ -236,8 +236,7 @@
 
       // Add the year slider.
       this.map.addControl(L.Control.yearSlider({
-        yearStart: this.years[0],
-        yearEnd: this.years[this.years.length - 1],
+        years: this.years,
         yearChangeCallback: function(e) {
           plugin.currentYear = new Date(e.time).getFullYear();
           plugin.updateColors();
@@ -312,7 +311,7 @@
         // The search plugin messes up zoomShowHide, so we have to reset that
         // with this hacky method. Is there a better way?
         var zoom = plugin.map.getZoom();
-        plugin.map.setZoom(zoom + 1);
+        plugin.map.setZoom(plugin.options.maxZoom);
         plugin.map.setZoom(zoom);
 
         // The list of handlers to apply to each feature on a GeoJson layer.
@@ -680,7 +679,7 @@ var indicatorDataStore = function(dataUrl) {
     }
 
     that.fieldItemStates = _.map(_.filter(Object.keys(that.data[0]), function (key) {
-        return ['Year', 'Value', 'Units', 'GeoCode'].indexOf(key) === -1;
+        return ['Year', 'Value', 'Units', 'GeoCode', 'Observation status', 'Unit multiplier', 'Unit measure'].indexOf(key) === -1;
       }), function(field) {
       return {
         field: field,
@@ -1486,7 +1485,7 @@ var indicatorView = function (model, options) {
               text.push('<li data-datasetindex="' + datasetIndex + '">');
               text.push('<span class="swatch' + (dataset.borderDash ? ' dashed' : '') + '" style="background-color: ' + dataset.backgroundColor + '">');
               text.push('</span>');
-              text.push(dataset.label);
+              text.push(translations.t(dataset.label));
               text.push('</li>');
             });
 
@@ -1596,7 +1595,7 @@ var indicatorView = function (model, options) {
 
   this.toCsv = function (tableData) {
     var lines = [],
-    headings = _.map(tableData.headings, function(heading) { return '"' + heading + '"'; });
+    headings = _.map(tableData.headings, function(heading) { return '"' + translations.t(heading) + '"'; });
 
     lines.push(headings.join(','));
 
@@ -1614,7 +1613,7 @@ var indicatorView = function (model, options) {
   };
 
   var setDataTableWidth = function(table) {
-    table.find('th').each(function() {
+    table.find('thead th').each(function() {
       var textLength = $(this).text().length;
       for(var loop = 0; loop < view_obj._tableColumnDefs.length; loop++) {
         var def = view_obj._tableColumnDefs[loop];
@@ -1633,7 +1632,7 @@ var indicatorView = function (model, options) {
     table.removeAttr('style width');
 
     var totalWidth = 0;
-    table.find('th').each(function() {
+    table.find('thead th').each(function() {
       if($(this).data('width')) {
         totalWidth += $(this).data('width');
       } else {
@@ -1752,7 +1751,7 @@ var indicatorView = function (model, options) {
 
       var getHeading = function(heading, index) {
         var span = '<span class="sort" />';
-        var span_heading = '<span>' + heading + '</span>';
+        var span_heading = '<span>' + translations.t(heading) + '</span>';
         return (!index || heading.toLowerCase() == 'units') ? span_heading + span : span + span_heading;
       };
 
@@ -1767,7 +1766,12 @@ var indicatorView = function (model, options) {
       table.data.forEach(function (data) {
         var row_html = '<tr>';
         table.headings.forEach(function (heading, index) {
-          row_html += '<td' + (!index || heading.toLowerCase() == 'units' ? '' : ' class="table-value"') + '>' + (data[index] ? data[index] : '-') + '</td>';
+          // For accessibility set the Year column to a "row" scope th.
+          var isYear = (index == 0 || heading.toLowerCase() == 'year');
+          var isUnits = (heading.toLowerCase() == 'units');
+          var cell_prefix = (isYear) ? '<th scope="row"' : '<td';
+          var cell_suffix = (isYear) ? '</th>' : '</td>';
+          row_html += cell_prefix + (isYear || isUnits ? '' : ' class="table-value"') + '>' + (data[index] ? data[index] : '-') + cell_suffix;
         });
         row_html += '</tr>';
         currentTable.find('tbody').append(row_html);
@@ -1853,7 +1857,7 @@ var indicatorSearch = function(inputElement, indicatorDataStore) {
 
     var results = [],
         that = this,
-        searchString = unescape(location.search.substring(1)).replace("q=", "");
+        searchString = decodeURIComponent(location.search.substring(1)).replace("q=", "");
 
     // we got here because of a redirect, so reinstate:
     this.inputElement.val(searchString);
@@ -1936,102 +1940,6 @@ $(function() {
 
 });
 
-var reportingStatus = function(indicatorDataStore) {
-  this.indicatorDataStore = indicatorDataStore;
-
-  this.getReportingStatus = function() {
-
-    var that = this;
-
-    return new Promise(function(resolve, reject) {
-
-      // if(Modernizr.localStorage &&) {
-
-      // }
-
-      getPercentages = function(values) {
-
-        var percentageTotal = 100;
-        var total = _.reduce(values, function(memo, num) { return memo + num; });
-        var percentages = _.map(values, function(v) { return (v / total) * percentageTotal; });
-
-        var off = percentageTotal - _.reduce(percentages, function(acc, x) { return acc + Math.round(x) }, 0);
-          return _.chain(percentages).
-                  map(function(x, i) { return Math.round(x) + (off > i) - (i >= (percentages.length + off)) }).
-                  value();
-      }
-
-      that.indicatorDataStore.getData().then(function(data) {
-        // for each goal, get a percentage of indicators in the various states:
-        // notstarted, inprogress, complete
-        var mappedData = _.map(data, function(dataItem) {
-
-          var returnItem = {
-            goal_id: dataItem.goal.id,
-            completeCount: _.where(dataItem.goal.indicators, { status: 'complete' }).length,
-            inProgressCount: _.where(dataItem.goal.indicators, { status: 'inprogress' }).length,
-            notStartedCount: _.where(dataItem.goal.indicators, { status: 'notstarted' }).length
-          };
-
-          returnItem.totalCount = returnItem.notStartedCount + returnItem.inProgressCount + returnItem.completeCount;
-          returnItem.counts = [returnItem.completeCount, returnItem.inProgressCount, returnItem.notStartedCount];
-          returnItem.percentages = getPercentages([returnItem.completeCount, returnItem.inProgressCount, returnItem.notStartedCount]);
-          
-          return returnItem;
-        });    
-
-        var getTotalByStatus = function(statusType) {
-          return _.chain(mappedData).pluck(statusType).reduce(function(sum, n) { return sum + n; }).value();          
-        };
-
-        var overall = {
-          totalCount: _.chain(mappedData).pluck('totalCount').reduce(function(sum, n) { return sum + n; }).value(),
-          counts: [
-            getTotalByStatus('completeCount'),
-            getTotalByStatus('inProgressCount'),
-            getTotalByStatus('notStartedCount')
-          ]
-        };
-
-        overall.percentages = getPercentages([overall.counts[0], overall.counts[1], overall.counts[2]]);          
-        
-        resolve({
-          goals: mappedData,
-          overall: overall
-        });
-      });     
-    });
-  };
-};
-
-$(function() {
-
-  if($('.container').hasClass('reportingstatus')) {
-    var url = $('.container.reportingstatus').attr('data-url'),
-        status = new reportingStatus(new indicatorDataStore(url)),
-        types = ['Reported online', 'Statistics in progress', 'Exploring data sources'],
-        bindData = function(el, data) {
-          $(el).find('.goal-stats span').each(function(index, statEl) {
-            var percentage = Math.round(Number(((data.counts[index] / data.totalCount) * 100))) + '%';
-            
-            $(statEl).attr({
-              'style': 'width:' + data.percentages[index] + '%',
-              'title': types[index] + ': ' + data.percentages[index] + '%'
-            });
-  
-            $(el).find('span.value:eq(' + index + ')').text(data.percentages[index] + '%');
-          }); 
-        };
-
-    status.getReportingStatus().then(function(data) {
-      bindData($('.goal-overall'), data.overall);
-      _.each(data.goals, function(goal) {
-        var el = $('.goal[data-goalid="' + goal.goal_id + '"]');
-        bindData(el, goal);       
-      });
-    });
-  }
-});
 $(function() {
 
   var topLevelSearchLink = $('.top-level span:eq(1)');
@@ -2261,8 +2169,7 @@ $(function() {
   var defaultOptions = {
     // YearSlider options.
     yearChangeCallback: null,
-    yearStart: 2000,
-    yearEnd: 2018,
+    years: [],
     // TimeDimensionControl options.
     timeSliderDragUpdate: true,
     speedSlider: false,
@@ -2290,9 +2197,11 @@ $(function() {
     options = L.Util.extend(defaultOptions, options);
     // Hardcode the timeDimension to year intervals.
     options.timeDimension = new L.TimeDimension({
-      period: 'P1Y',
-      timeInterval: options.yearStart + '-01-02/' + options.yearEnd + '-01-02',
-      currentTime: new Date(options.yearStart + '-01-02').getTime(),
+      // We pad our years to at least January 2nd, so that timezone issues don't
+      // cause any problems. This converts the array of years into a comma-
+      // delimited string of YYYY-MM-DD dates.
+      times: options.years.join('-01-02,') + '-01-02',
+      currentTime: new Date(options.years[0] + '-01-02').getTime(),
     });
     // Create the player.
     options.player = new L.TimeDimension.Player(options.playerOptions, options.timeDimension);
@@ -2304,3 +2213,22 @@ $(function() {
     return new L.Control.YearSlider(options);
   };
 }());
+function initialiseGoogleAnalytics(){
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+    sendPageviewToGoogleAnalytics();
+}
+
+function sendPageviewToGoogleAnalytics(){
+    ga('create', '', 'auto');
+    // anonymize user IPs (chops off the last IP triplet)
+    ga('set', 'anonymizeIp', true);
+    // forces SSL even if the page were somehow loaded over http://
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+}
+
+

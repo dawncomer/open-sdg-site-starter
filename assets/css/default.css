@@ -84,6 +84,15 @@ header {
     top: -1px;
     right: 0;
     display: inline; }
+.results .indicator-cards .tags {
+  padding: 0;
+  margin: 6px 10px 0 0;
+  list-style-type: none; }
+  .results .indicator-cards .tags li {
+    margin-right: 6px;
+    padding: 4px 6px;
+    display: inline;
+    border-radius: 10px; }
 .results .indicator-cards .match {
   display: inline;
   font-weight: normal;
@@ -558,6 +567,18 @@ h5 + .btn-download {
 .success {
   background-color: #5cb85c; }
 
+.notapplicable {
+  background-color: #B7B7B7; }
+
+.notstarted {
+  background-color: #E27874; }
+
+.inprogress {
+  background-color: #f0ad4e; }
+
+.complete {
+  background-color: #5cb85c; }
+
 #main-content {
   font-family: 'Roboto', sans-serif;
   background: white;
@@ -892,10 +913,25 @@ h5 + .btn-download {
       top: -1px;
       right: 0;
       display: inline; }
+  #main-content.goal-indicators .indicator-cards .tags {
+    padding: 0;
+    margin: 6px 10px 0 0;
+    list-style-type: none; }
+    #main-content.goal-indicators .indicator-cards .tags li {
+      margin-right: 6px;
+      padding: 4px 6px;
+      display: inline;
+      border-radius: 10px; }
   #main-content.goal-indicators .indicator-cards .match {
     display: inline;
     font-weight: normal;
     border-bottom: none; }
+  #main-content.goal-indicators.goal-by-target .indicator-cards a {
+    padding: 0;
+    margin-bottom: 1.5rem; }
+  #main-content.goal-indicators.goal-by-target .indicator-cards.target {
+    margin-bottom: 1.5rem;
+    clear: left; }
   #main-content .goal-indicators:after {
     content: "";
     display: table;
@@ -924,9 +960,9 @@ h5 + .btn-download {
       #main-content #selectionsTable div.dataTables_wrapper .row {
         margin-left: 0;
         margin-right: 0; }
-    #main-content #selectionsTable table th {
+    #main-content #selectionsTable table thead th {
       cursor: pointer; }
-      #main-content #selectionsTable table th span.sort {
+      #main-content #selectionsTable table thead th span.sort {
         background-position: center center;
         background-repeat: no-repeat;
         background-color: transparent;
@@ -934,12 +970,14 @@ h5 + .btn-download {
         width: 24px;
         height: 19px;
         margin-bottom: -3px; }
-      #main-content #selectionsTable table th:hover {
+      #main-content #selectionsTable table thead th:hover {
         text-decoration: underline; }
-      #main-content #selectionsTable table th.sorting_asc span.sort {
+      #main-content #selectionsTable table thead th.sorting_asc span.sort {
         background-image: url(../img/sort_asc.png); }
-      #main-content #selectionsTable table th.sorting_desc span.sort {
+      #main-content #selectionsTable table thead th.sorting_desc span.sort {
         background-image: url(../img/sort_desc.png); }
+    #main-content #selectionsTable table tbody th {
+      font-weight: normal; }
     #main-content #selectionsTable .table-footer-text p {
       font-size: 0.85em;
       margin: 0 0 5px; }
@@ -1344,7 +1382,7 @@ body.contrast-high {
     color: white !important; }
   body.contrast-high .goal-indicators .indicator-cards a {
     color: white !important; }
-  body.contrast-high .goal-indicators .indicator-cards span.status {
+  body.contrast-high .goal-indicators .indicator-cards span.status, body.contrast-high .goal-indicators .indicator-cards .tags li {
     color: black !important; }
   body.contrast-high #main-content #fields label {
     background: black;
