@@ -96,7 +96,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20190529000111">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20190530000109">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -104,7 +104,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20190529000111"></head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20190530000109"></head>
 <body class="language-en">
 <!-- <div class="container"> -->
 
@@ -250,7 +250,7 @@ var translations = {
   </div>
 
   <div class="row" id="indicatorData" data-indicatorid='indicator_13-1-1' data-id="13-1-1" data-country=""
-  data-charttitle="Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population" data-measurementunit="" data-datasource="" data-geographicalarea="" data-footnote="" data-showdata="true" data-graphtype="line" data-geocoderegex="" data-showmap="">
+  data-charttitle="Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population" data-measurementunit="" data-datasource="" data-geographicalarea="" data-footnote="" data-showdata="true" data-graphtype="bar" data-geocoderegex="" data-showmap="">
     
     <div class="col-md-3">
       <div id="toolbar">
@@ -401,7 +401,34 @@ var translations = {
     
     <div class="plot-container">
         
-<canvas></canvas>
+
+<canvas id="barchart-13-1-1" class="ct-chart ct-major-eleventh"></canvas>
+<script>
+  // 3.5.2
+  // 1.5.2 // 2 bars
+  // 4.b.1 // 3 bars
+  var chartInfo = chartDataProcessor.getChartInfo(null),
+      chartInstance = new Chart(document.getElementById('barchart-13-1-1'), {
+      type: 'bar',
+      data: chartInfo,
+      options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            yAxes: [{
+              ticks: {
+                  suggestedMin: 0
+              }
+            }]
+          },
+          legend: {
+            display: false
+         },
+      }
+  });
+
+</script>
+
     </div>
     <div id="plotLegend"></div>
 
@@ -612,8 +639,8 @@ var translations = {
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/afbd4348290ab76b15a0a881c412974a199c24a0" target="_blank">
-                2019-05-27: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/98863adec252eb700d3d7c1105401445b3de4d9c" target="_blank">
+                2019-05-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1010,7 +1037,7 @@ var translations = {
 <script>
   var remoteDataBaseUrl = 'https://dawncomer.github.io/open-sdg-data-starter';
 </script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20190529000111'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20190530000109'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {
