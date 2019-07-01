@@ -1,5 +1,7 @@
 .heading h4 {
   color: white; }
+  .heading h4 a {
+    display: inline; }
 
 #main-content.goal-indicators .indicator-cards a {
   padding: 0;
