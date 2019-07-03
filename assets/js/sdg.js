@@ -1884,7 +1884,8 @@ var indicatorSearch = function(inputElement, indicatorDataStore) {
       var searchResults = _.filter(that.indicatorData, function(indicator) {
         return indicator.title.toLowerCase().indexOf(searchString.toLowerCase()) != -1 ||
           indicator.description.toLowerCase().indexOf(searchString.toLowerCase()) != -1 ||
-          indicator.keywords.toLowerCase().indexOf(searchString.toLowerCase()) != -1;
+          indicator.keywords.toLowerCase().indexOf(searchString.toLowerCase()) != -1 ||
+          indicator.target.toLowerCase().indexOf(searchString.toLowerCase()) != -1;
       });
 
       // goal
@@ -1898,8 +1899,10 @@ var indicatorSearch = function(inputElement, indicatorDataStore) {
               parsedTitle: result.title.replace(new RegExp('(' + escapeRegExp(searchString) + ')', 'gi'), '<span class="match">$1</span>'),
               parsedDescription: result.description.replace(new RegExp('(' + escapeRegExp(searchString) + ')', 'gi'), '<span class="match">$1</span>'),
               parsedKeywords: result.keywords.replace(new RegExp('(' + escapeRegExp(searchString) + ')', 'gi'), '<span class="match">$1</span>'),
+              parsedTarget: result.target.replace(new RegExp('(' + escapeRegExp(searchString) + ')', 'gi'), '<span class="match">$1</span>'),
               hasKeywords: result.keywords && result.keywords.length,
               hasDescription: result.description && result.description.length,
+              hasTarget: result.target && result.target.length,
               id: result.id,
               title: result.title,
               href: result.href,
