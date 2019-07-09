@@ -1,7 +1,9 @@
 .heading h4 {
   color: white; }
   .heading h4 a {
-    display: inline; }
+    display: inline;
+    color: yellow;
+    text-decoration: underline; }
 
 #main-content.goal-indicators .indicator-cards a {
   padding: 0;
