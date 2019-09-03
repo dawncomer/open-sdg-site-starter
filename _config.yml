@@ -42,9 +42,9 @@ twitter: 'MyTwitterAccount'
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: sdg@lacity.org
+  suggestions: sdg@lacity.org
+  functional: sdg@lacity.org
 
 # Github Repo for Data
 # Replace this value as needed.
@@ -81,15 +81,15 @@ collections:
 # Menu
 menu:
   # Use these to customise the main navigation.
+  - path: /
+    translation_key: general.goals
   - path: /reporting-status
     # The "translation_key" refers to the key in the SDG Translations repository.
-    translation_key: menu.reporting_status
+    translation_key: data summary
+  - path: /publications/
+    translation_key: menu.publications 
   - path: /about
     translation_key: menu.about
-  - path: /guidance
-    translation_key: menu.guidance
-  - path: /faq
-    translation_key: menu.faq
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
