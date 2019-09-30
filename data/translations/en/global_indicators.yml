@@ -21,8 +21,7 @@
   title: Material Footprint in the City of Los Angeles
        
 11.b.1:
-  title: Proportion of local municipality that adopts and implements local disaster risk reduction strategies 
-         in line with the Sendai Framework for Disaster Risk Reduction 2015-2030a
+  title: Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030
 
 11.b.2:
   title: Proportion of City of LA Neighborhoods that adopt and implement local disaster risk reduction strategies 
@@ -31,7 +30,10 @@
 11.c.1:
   title: Proportion of resources allocated to the construction and retrofitting of sustainable, resilient 
          and resource-efficient buildings utilizing local materials
-         
+
+13.1.2:
+  title: Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030
+
 13.2.1:
   title: Number of City departments that have adopted and integrated the Sustainability pLAn / Green New Deal 
          policies/strategies/plans which increases their ability to adapt to the adverse impacts of climate change, 
