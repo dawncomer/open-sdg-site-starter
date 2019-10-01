@@ -64,9 +64,6 @@
 10.c:
   title: By 2030, reduce to less than 3 per cent the transaction costs of migrant
     remittances and eliminate remittance corridors with costs higher than 5 per cent
-'10.x':
-  title: End discrimination against LGBTQIA+ persons and ensure that LGBTQIA+ persons have 
-    equal access to services and employment opportunities
 '11.1':
   title: By 2030, ensure access for all to adequate, safe and affordable housing and
     basic services
@@ -526,7 +523,7 @@
 5.c:
   title: Adopt and strengthen sound policies and enforceable legislation for the promotion
     of gender equality and the empowerment of all women and girls at all levels
-'5.x':
+'5.d*':
   title: End discrimination against LGBTQIA+ persons and ensure that LGBTQIA+ persons have 
     equal access to services and employment opportunities
 '6.1':
