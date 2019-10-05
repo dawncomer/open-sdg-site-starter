@@ -118,7 +118,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20191004201834">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20191005000922">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -126,7 +126,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20191004201834"></head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20191005000922"></head>
 <body class="language-en">
 <!-- <div class="container"> -->
 
@@ -267,20 +267,157 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Average income of small-scale food producers, by sex and indigenous status</h2>
+      <h2>Median earnings in the past 12 months for the civilian employed population 16 years and over working in agriculture, forestry, fishing and hunting</h2>
     </div>
   </div>
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_2-3-2' data-id="2-3-2" data-country=""
-  data-charttitle="Average income of small-scale food producers, by sex and indigenous status" data-measurementunit="" data-datasource="" data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line" data-geocoderegex="" data-showmap="false">
+  <div class="row" id="indicatorData" data-indicatorid='indicator_2-3-2' data-id="2-3-2" data-country="City of Los Angeles"
+  data-charttitle="Median earnings in the past 12 months for the civilian employed population 16 years and over working in agriculture, forestry, fishing and hunting" data-measurementunit="2017 inflation-adjusted dollars" data-datasource="American Community Survey" data-geographicalarea="City of Los Angeles" data-footnote="" data-showdata="true" data-graphtype="bar" data-geocoderegex="" data-showmap="false">
     
-    <div class="col-md-12">
+    <div class="col-md-3">
+      <div id="toolbar">
+        <span id="series-help">
+          <h4>Sub-categories</h4>
+          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+        </span>
+        <p>Click on the legend to remove individual lines from the chart.</p>
+        <div id="fields">
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        </div>
+      </div>
+      <div id="units"></div>
+    </div>
+    <div class="col-md-9">
     
+
+      
+      
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://dawncomer.github.io/open-sdg-data-starter/headline/2-3-2.csv" class="btn btn-primary btn-download" download="indicator_2-3-2.csv" tabindex="0" role="button">Download Headline CSV</a>
+
+    <a href="https://dawncomer.github.io/open-sdg-data-starter/data/2-3-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_2-3-2.csv' tabindex='0' role='button'>Download Source CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption></caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">21239</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">20286</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">18965</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    
+    
+  </div>
+
+</div>
 
       
 
       <section>
 
+        
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        <div class="async-loaded" style="display:none">
+          <ul class="nav nav-tabs data-view" role="tablist">
+            <li role="presentation" class="nav-item active">
+              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab">Chart</a>
+            </li>
+            <li role="presentation" class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab">Table</a>
+            </li>
+            <li role="presentation" class="nav-item map" style="display:none">
+              <a class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab">Map</a>
+            </li></ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content data-view">
+            <div role="tabpanel" class="tab-pane active" id="chartview">
+              
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div class="plot-container">
+        
+<canvas></canvas>
+
+    </div>
+    <div id="plotLegend"></div>
+
+    <div id="chartSelectionDownload"></div>
+
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tableview">
+              <div id="selectionsTable"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+              <div id="map">
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Loading map" />
+              </div>
+            </div>
+            
+          </div>
+        </div>
         
 
         <!-- Nav tabs -->
@@ -333,7 +470,7 @@ var translations = {
         <th scope="row">Indicator available </th>
         <td>
           
-            
+            Median earnings in the past 12 months for the civilian employed population 16 years and over working in agriculture, forestry, fishing and hunting
           
         </td>
         </tr>
@@ -357,7 +494,7 @@ var translations = {
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            City of Los Angeles
           
         </td>
         </tr>
@@ -369,7 +506,7 @@ var translations = {
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            2017 inflation-adjusted dollars
           
         </td>
         </tr>
@@ -447,8 +584,8 @@ var translations = {
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/c668a137c13a542f480233edcff3476972c2b897" target="_blank">
-                2018-10-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/e4f80d36e6b2de014cd4cb867752d1271b6e9427" target="_blank">
+                2019-10-04: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -472,7 +609,7 @@ var translations = {
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/a9aa2b4d6af5b867ba3e2348eb9b69d9638307e5" target="_blank">
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/476901f615cdcb738339a8d7740710dfe96b0cb0" target="_blank">
                 2019-10-04: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -861,7 +998,7 @@ var translations = {
         <th scope="row">Organisation </th>
         <td>
           
-            
+            American Community Survey
           
         </td>
         </tr>
@@ -897,7 +1034,7 @@ var translations = {
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            City of Los Angeles
           
         </td>
         </tr>
@@ -914,6 +1051,10 @@ var translations = {
             
             
 
+            
+              <a href="https://factfinder.census.gov" target="_blank">
+                2013-2017 American Community Survey 5-Year Estimates: Industry by sex and median earnings in the past 12 months for the civilian employed population 16 years and over (S2413) <span class="visuallyhidden">opens in a new window</span>
+              </a>
             
 
           
@@ -1101,7 +1242,7 @@ var translations = {
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
 <script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20191004201834'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20191005000922'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {
