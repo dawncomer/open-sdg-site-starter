@@ -31,7 +31,7 @@ analytics:
   ga_prod: ''
 
 # Social media accounts.
-#twitter: 'MyTwitterAccount'
+twitter: 'MyTwitterAccount'
 
 # Replace the email addresses below.
 email_contacts:
