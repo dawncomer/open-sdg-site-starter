@@ -3,12 +3,20 @@
       "id": "1",
       "title": "",
       "indicators": [{
-          "id": "1-1-1",
-          "title": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
-          "description": "In the United States, the U.S. Census Bureau defines “deep poverty” as living in a household with a total cash income below 50 percent of its poverty threshold.",
-          "target": "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day",
+          "id": "1-2-2",
+          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "description": "",
+          "target": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-1-1",
+          "href": "/open-sdg-site-starter/1-2-2",
+          "status": "complete"
+        },{
+          "id": "1-3-1",
+          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "description": "",
+          "target": "Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/1-3-1",
           "status": "complete"
         },{
           "id": "1-a-2",
@@ -19,21 +27,21 @@
           "href": "/open-sdg-site-starter/1-a-2",
           "status": "notstarted"
         },{
-          "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
+          "id": "1-5-1",
+          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
           "description": "",
-          "target": "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions",
+          "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-a-3",
+          "href": "/open-sdg-site-starter/1-5-1",
           "status": "notstarted"
         },{
-          "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, with legally recognized documentation, and who perceive their rights to land as secure, by sex and by type of tenure",
-          "description": "",
-          "target": "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance.",
+          "id": "1-2-1",
+          "title": "Proportion of population living below the national poverty line, by sex and age",
+          "description": "The Census Bureau determines poverty status by using an official poverty measure (OPM) that compares pre-tax cash income against a threshold that is set at three times the cost of a minimum food diet in 1963 and adjusted for family size. The City of Los Angeles will continue to explore sources on percent of population below poverty by city/local standards.",
+          "target": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions.",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-4-2",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/1-2-1",
+          "status": "complete"
         },{
           "id": "1-4-1",
           "title": "Proportion of population living in households with access to basic services",
@@ -43,28 +51,28 @@
           "href": "/open-sdg-site-starter/1-4-1",
           "status": "notstarted"
         },{
-          "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
+          "id": "1-b-1",
+          "title": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",
           "description": "",
-          "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",
+          "target": "Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-2",
+          "href": "/open-sdg-site-starter/1-b-1",
           "status": "notstarted"
         },{
-          "id": "1-3-1",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "id": "1-a-3",
+          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
           "description": "",
-          "target": "Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable",
+          "target": "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-3-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/1-a-3",
+          "status": "notstarted"
         },{
-          "id": "1-5-4",
-          "title": "Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
-          "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",
+          "id": "1-1-1",
+          "title": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
+          "description": "In the United States, the U.S. Census Bureau defines “deep poverty” as living in a household with a total cash income below 50 percent of its poverty threshold.",
+          "target": "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-4",
+          "href": "/open-sdg-site-starter/1-1-1",
           "status": "complete"
         },{
           "id": "1-5-3",
@@ -83,37 +91,29 @@
           "href": "/open-sdg-site-starter/1-a-1",
           "status": "complete"
         },{
-          "id": "1-b-1",
-          "title": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",
-          "description": "",
-          "target": "Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/1-b-1",
-          "status": "notstarted"
-        },{
-          "id": "1-2-1",
-          "title": "Proportion of population living below the national poverty line, by sex and age",
-          "description": "The Census Bureau determines poverty status by using an official poverty measure (OPM) that compares pre-tax cash income against a threshold that is set at three times the cost of a minimum food diet in 1963 and adjusted for family size. The City of Los Angeles will continue to explore sources on percent of population below poverty by city/local standards.",
-          "target": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions.",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/1-2-1",
-          "status": "complete"
-        },{
-          "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "id": "1-5-2",
+          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
           "description": "",
           "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-5-1",
+          "href": "/open-sdg-site-starter/1-5-2",
           "status": "notstarted"
         },{
-          "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "id": "1-5-4",
+          "title": "Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
-          "target": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",
           "keywords": "",
-          "href": "/open-sdg-site-starter/1-2-2",
+          "href": "/open-sdg-site-starter/1-5-4",
           "status": "complete"
+        },{
+          "id": "1-4-2",
+          "title": "Proportion of total adult population with secure tenure rights to land, with legally recognized documentation, and who perceive their rights to land as secure, by sex and by type of tenure",
+          "description": "",
+          "target": "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance.",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/1-4-2",
+          "status": "notstarted"
         }]
     }
   },{
@@ -121,6 +121,30 @@
       "id": "2",
       "title": "",
       "indicators": [{
+          "id": "2-3-2",
+          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "description": "",
+          "target": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/2-3-2",
+          "status": "complete"
+        },{
+          "id": "2-1-1",
+          "title": "Prevalence of undernourishment",
+          "description": "",
+          "target": "By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/2-1-1",
+          "status": "notstarted"
+        },{
+          "id": "2-3-1",
+          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "description": "",
+          "target": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/2-3-1",
+          "status": "notstarted"
+        },{
           "id": "2-1-2",
           "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
           "description": "",
@@ -129,12 +153,28 @@
           "href": "/open-sdg-site-starter/2-1-2",
           "status": "complete"
         },{
+          "id": "2-4-1",
+          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "description": "",
+          "target": "By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/2-4-1",
+          "status": "notstarted"
+        },{
           "id": "2-2-1",
           "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
           "description": "",
           "target": "By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons",
           "keywords": "",
           "href": "/open-sdg-site-starter/2-2-1",
+          "status": "notstarted"
+        },{
+          "id": "2-a-1",
+          "title": "The agriculture orientation index for government expenditures",
+          "description": "",
+          "target": "Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/2-a-1",
           "status": "notstarted"
         },{
           "id": "2-2-2",
@@ -152,46 +192,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/2-a-2",
           "status": "notstarted"
-        },{
-          "id": "2-1-1",
-          "title": "Prevalence of undernourishment",
-          "description": "",
-          "target": "By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/2-1-1",
-          "status": "notstarted"
-        },{
-          "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
-          "description": "",
-          "target": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/2-3-2",
-          "status": "complete"
-        },{
-          "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
-          "description": "",
-          "target": "By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/2-4-1",
-          "status": "notstarted"
-        },{
-          "id": "2-a-1",
-          "title": "The agriculture orientation index for government expenditures",
-          "description": "",
-          "target": "Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/2-a-1",
-          "status": "notstarted"
-        },{
-          "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
-          "description": "",
-          "target": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/2-3-1",
-          "status": "notstarted"
         }]
     }
   },{
@@ -199,156 +199,12 @@
       "id": "3",
       "title": "",
       "indicators": [{
-          "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
-          "description": "",
-          "target": "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-7-1",
-          "status": "notstarted"
-        },{
-          "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
-          "description": "",
-          "target": "Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-d-1",
-          "status": "notstarted"
-        },{
-          "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
-          "description": "",
-          "target": "Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-b-3",
-          "status": "notstarted"
-        },{
-          "id": "3-2-1",
-          "title": "Under‐five mortality rate",
-          "description": "",
-          "target": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-2-1",
-          "status": "complete"
-        },{
-          "id": "3-1-1",
-          "title": "Maternal mortality ratio",
-          "description": "",
-          "target": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-1-1",
-          "status": "notstarted"
-        },{
-          "id": "3-2-2",
-          "title": "Neonatal mortality rate",
-          "description": "",
-          "target": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-2-2",
-          "status": "notstarted"
-        },{
-          "id": "3-3-3",
-          "title": "Malaria incidence per 100,000 population",
-          "description": "Malaria is not transmitted locally. All cases of malaria in Los Angeles County were acquired in other countries.",
-          "target": "3.3 By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-3",
-          "status": "complete"
-        },{
-          "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
-          "description": "",
-          "target": "By 2020, halve the number of global deaths and injuries from road traffic accidents",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-6-1",
-          "status": "complete"
-        },{
-          "id": "3-b-2",
-          "title": "Total net official development assistance to medical research and basic health sectors",
-          "description": "",
-          "target": "Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-b-2",
-          "status": "notstarted"
-        },{
-          "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
-          "description": "",
-          "target": "3.a Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-a-1",
-          "status": "complete"
-        },{
-          "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
-          "description": "",
-          "target": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-1-2",
-          "status": "notstarted"
-        },{
-          "id": "3-3-1",
-          "title": "Number of new HIV infections per 100,000 uninfected population, by sex, age and key populations",
-          "description": "",
-          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-1",
-          "status": "complete"
-        },{
-          "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
-          "description": "",
-          "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-9-1",
-          "status": "notstarted"
-        },{
-          "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
-          "description": "",
-          "target": "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-4-1",
-          "status": "notstarted"
-        },{
           "id": "3-4-2",
           "title": "Suicide mortality rate",
           "description": "",
           "target": "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being",
           "keywords": "",
           "href": "/open-sdg-site-starter/3-4-2",
-          "status": "notstarted"
-        },{
-          "id": "3-c-1",
-          "title": "Health worker density and distribution",
-          "description": "",
-          "target": "Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-c-1",
-          "status": "notstarted"
-        },{
-          "id": "3-5-2",
-          "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
-          "description": "",
-          "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-5-2",
-          "status": "complete"
-        },{
-          "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
-          "description": "",
-          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-4",
-          "status": "complete"
-        },{
-          "id": "3-5-1",
-          "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
-          "description": "",
-          "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-5-1",
           "status": "notstarted"
         },{
           "id": "3-8-2",
@@ -359,30 +215,6 @@
           "href": "/open-sdg-site-starter/3-8-2",
           "status": "notstarted"
         },{
-          "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
-          "description": "Tuberculosis has very low incidence in Los Angeles County so reporting it as a proportion out of 100,000 would not be relevant at the local scale.",
-          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-2",
-          "status": "complete"
-        },{
-          "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
-          "description": "",
-          "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-9-2",
-          "status": "notstarted"
-        },{
-          "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
-          "description": "",
-          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/3-3-5",
-          "status": "notstarted"
-        },{
           "id": "3-b-1",
           "title": "Proportion of the target population covered by all vaccines included in their national programme",
           "description": "Each autumn California schools are required to report to the California Department of Public Health (CDPH) the status of their students under state immunization requirement laws.",
@@ -391,12 +223,76 @@
           "href": "/open-sdg-site-starter/3-b-1",
           "status": "complete"
         },{
-          "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "id": "3-b-2",
+          "title": "Total net official development assistance to medical research and basic health sectors",
+          "description": "",
+          "target": "Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-b-2",
+          "status": "notstarted"
+        },{
+          "id": "3-d-1",
+          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "description": "",
+          "target": "Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-d-1",
+          "status": "notstarted"
+        },{
+          "id": "3-2-2",
+          "title": "Neonatal mortality rate",
+          "description": "",
+          "target": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-2-2",
+          "status": "notstarted"
+        },{
+          "id": "3-2-1",
+          "title": "Under‐five mortality rate",
+          "description": "",
+          "target": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-2-1",
+          "status": "complete"
+        },{
+          "id": "3-8-1",
+          "title": "Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)",
+          "description": "",
+          "target": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-8-1",
+          "status": "complete"
+        },{
+          "id": "3-b-3",
+          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "description": "",
+          "target": "Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-b-3",
+          "status": "notstarted"
+        },{
+          "id": "3-3-2",
+          "title": "Tuberculosis incidence per 100,000 population",
+          "description": "Tuberculosis has very low incidence in Los Angeles County so reporting it as a proportion out of 100,000 would not be relevant at the local scale.",
+          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-3-2",
+          "status": "complete"
+        },{
+          "id": "3-3-4",
+          "title": "Hepatitis B incidence per 100,000 population",
+          "description": "",
+          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-3-4",
+          "status": "complete"
+        },{
+          "id": "3-9-1",
+          "title": "Mortality rate attributed to household and ambient air pollution",
           "description": "",
           "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-9-3",
+          "href": "/open-sdg-site-starter/3-9-1",
           "status": "notstarted"
         },{
           "id": "3-7-2",
@@ -407,6 +303,30 @@
           "href": "/open-sdg-site-starter/3-7-2",
           "status": "notstarted"
         },{
+          "id": "3-3-5",
+          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "description": "",
+          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-3-5",
+          "status": "notstarted"
+        },{
+          "id": "3-4-1",
+          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "description": "",
+          "target": "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-4-1",
+          "status": "notstarted"
+        },{
+          "id": "3-6-1",
+          "title": "Death rate due to road traffic injuries",
+          "description": "",
+          "target": "By 2020, halve the number of global deaths and injuries from road traffic accidents",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-6-1",
+          "status": "complete"
+        },{
           "id": "3-4-3",
           "title": "Proportion of adults (ages 18 years and older) with current depression who are receiving counseling from a mental health professional for the disorder",
           "description": "Conducted every 2-3 years, the Los Angeles County Health Survey is a population based telephone survey that provides information concerning the health of Los Angeles County residents.",
@@ -415,12 +335,92 @@
           "href": "/open-sdg-site-starter/3-4-3",
           "status": "complete"
         },{
-          "id": "3-8-1",
-          "title": "Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)",
+          "id": "3-c-1",
+          "title": "Health worker density and distribution",
           "description": "",
-          "target": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all",
+          "target": "Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States",
           "keywords": "",
-          "href": "/open-sdg-site-starter/3-8-1",
+          "href": "/open-sdg-site-starter/3-c-1",
+          "status": "notstarted"
+        },{
+          "id": "3-9-2",
+          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
+          "description": "",
+          "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-9-2",
+          "status": "notstarted"
+        },{
+          "id": "3-5-1",
+          "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
+          "description": "",
+          "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-5-1",
+          "status": "notstarted"
+        },{
+          "id": "3-a-1",
+          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "description": "",
+          "target": "3.a Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-a-1",
+          "status": "complete"
+        },{
+          "id": "3-3-3",
+          "title": "Malaria incidence per 100,000 population",
+          "description": "Malaria is not transmitted locally. All cases of malaria in Los Angeles County were acquired in other countries.",
+          "target": "3.3 By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-3-3",
+          "status": "complete"
+        },{
+          "id": "3-7-1",
+          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "description": "",
+          "target": "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-7-1",
+          "status": "notstarted"
+        },{
+          "id": "3-3-1",
+          "title": "Number of new HIV infections per 100,000 uninfected population, by sex, age and key populations",
+          "description": "",
+          "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-3-1",
+          "status": "complete"
+        },{
+          "id": "3-1-2",
+          "title": "Proportion of births attended by skilled health personnel",
+          "description": "",
+          "target": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-1-2",
+          "status": "notstarted"
+        },{
+          "id": "3-1-1",
+          "title": "Maternal mortality ratio",
+          "description": "",
+          "target": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-1-1",
+          "status": "notstarted"
+        },{
+          "id": "3-9-3",
+          "title": "Mortality rate attributed to unintentional poisoning",
+          "description": "",
+          "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-9-3",
+          "status": "notstarted"
+        },{
+          "id": "3-5-2",
+          "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "description": "",
+          "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-5-2",
           "status": "complete"
         }]
     }
@@ -429,12 +429,20 @@
       "id": "4",
       "title": "",
       "indicators": [{
-          "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
+          "id": "4-2-1",
+          "title": "Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
           "description": "",
-          "target": "By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries",
+          "target": "By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-b-1",
+          "href": "/open-sdg-site-starter/4-2-1",
+          "status": "notstarted"
+        },{
+          "id": "4-7-1",
+          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "description": "",
+          "target": "By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/4-7-1",
           "status": "notstarted"
         },{
           "id": "4-3-1",
@@ -445,12 +453,20 @@
           "href": "/open-sdg-site-starter/4-3-1",
           "status": "complete"
         },{
-          "id": "4-5-1",
-          "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
+          "id": "4-b-1",
+          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
           "description": "",
-          "target": "By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations",
+          "target": "By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-5-1",
+          "href": "/open-sdg-site-starter/4-b-1",
+          "status": "notstarted"
+        },{
+          "id": "4-a-1",
+          "title": "Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)",
+          "description": "",
+          "target": "Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/4-a-1",
           "status": "notstarted"
         },{
           "id": "4-2-2",
@@ -461,22 +477,6 @@
           "href": "/open-sdg-site-starter/4-2-2",
           "status": "complete"
         },{
-          "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
-          "description": "",
-          "target": "By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/4-7-1",
-          "status": "notstarted"
-        },{
-          "id": "4-6-1",
-          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
-          "description": "",
-          "target": "By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/4-6-1",
-          "status": "notstarted"
-        },{
           "id": "4-1-1",
           "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
           "description": "The California Assessment of Student Performance and Progress (CAASPP) administration consists of the Smarter Balanced English-language arts/literacy (ELA) and mathematics tests and the California Alternative Assessment (CAA) English Language Arts (ELA) and mathematics tests. The indicator displays the percentage of students that met or exceed standards on the Smarter Balanced English Language Arts test.",
@@ -484,14 +484,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/4-1-1",
           "status": "complete"
-        },{
-          "id": "4-a-1",
-          "title": "Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)",
-          "description": "",
-          "target": "Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/4-a-1",
-          "status": "notstarted"
         },{
           "id": "4-4-1",
           "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
@@ -501,12 +493,20 @@
           "href": "/open-sdg-site-starter/4-4-1",
           "status": "notstarted"
         },{
-          "id": "4-2-1",
-          "title": "Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "id": "4-5-1",
+          "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
           "description": "",
-          "target": "By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education",
+          "target": "By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations",
           "keywords": "",
-          "href": "/open-sdg-site-starter/4-2-1",
+          "href": "/open-sdg-site-starter/4-5-1",
+          "status": "notstarted"
+        },{
+          "id": "4-6-1",
+          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+          "description": "",
+          "target": "By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/4-6-1",
           "status": "notstarted"
         }]
     }
@@ -515,52 +515,12 @@
       "id": "5",
       "title": "",
       "indicators": [{
-          "id": "5-c-1",
-          "title": "Number of City of LA Departments with Gender Equity plans in place to track and make public allocations for gender equality and women’s empowerment",
-          "description": "",
-          "target": "Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-c-1",
-          "status": "complete"
-        },{
-          "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
-          "description": "",
-          "target": "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-6-1",
-          "status": "notstarted"
-        },{
           "id": "5-5-1",
           "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
           "description": "",
           "target": "Ensure women’s full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life",
           "keywords": "",
           "href": "/open-sdg-site-starter/5-5-1",
-          "status": "complete"
-        },{
-          "id": "5-x-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sexual orientation and gender identity",
-          "description": "",
-          "target": "End discrimination against LGBTQIA+ persons and ensure that LGBTQIA+ persons have equal access to services and employment opportunities",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-x-1",
-          "status": "complete"
-        },{
-          "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
-          "description": "",
-          "target": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-a-2",
-          "status": "complete"
-        },{
-          "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
-          "description": "This indicator measures the percentage of adults (18 and older) who have ever experienced physical or sexual violence by an intimate partner. The global target measures the same indicator for women and girls 15 years and older.",
-          "target": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-2-1",
           "status": "complete"
         },{
           "id": "5-6-2",
@@ -571,12 +531,36 @@
           "href": "/open-sdg-site-starter/5-6-2",
           "status": "notstarted"
         },{
-          "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "id": "5-1-1",
+          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex",
           "description": "",
-          "target": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws",
+          "target": "End all forms of discrimination against all women and girls everywhere",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-a-1",
+          "href": "/open-sdg-site-starter/5-1-1",
+          "status": "complete"
+        },{
+          "id": "5-b-1",
+          "title": "Percentage of individuals with access to a computer and/or internet connectivity",
+          "description": "",
+          "target": "Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-b-1",
+          "status": "complete"
+        },{
+          "id": "5-6-1",
+          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "description": "",
+          "target": "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-6-1",
+          "status": "notstarted"
+        },{
+          "id": "5-3-1",
+          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
+          "description": "",
+          "target": "Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-3-1",
           "status": "notstarted"
         },{
           "id": "5-4-1",
@@ -587,28 +571,20 @@
           "href": "/open-sdg-site-starter/5-4-1",
           "status": "notstarted"
         },{
-          "id": "5-b-1",
-          "title": "Percentage of individuals with access to a computer and/or internet connectivity",
+          "id": "5-c-1",
+          "title": "Number of City of LA Departments with Gender Equity plans in place to track and make public allocations for gender equality and women’s empowerment",
           "description": "",
-          "target": "Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women",
+          "target": "Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-b-1",
+          "href": "/open-sdg-site-starter/5-c-1",
           "status": "complete"
         },{
-          "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "id": "5-a-2",
+          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
           "description": "",
-          "target": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation",
+          "target": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws",
           "keywords": "",
-          "href": "/open-sdg-site-starter/5-2-2",
-          "status": "notstarted"
-        },{
-          "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex",
-          "description": "",
-          "target": "End all forms of discrimination against all women and girls everywhere",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-1-1",
+          "href": "/open-sdg-site-starter/5-a-2",
           "status": "complete"
         },{
           "id": "5-5-2",
@@ -619,6 +595,38 @@
           "href": "/open-sdg-site-starter/5-5-2",
           "status": "complete"
         },{
+          "id": "5-a-1",
+          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "description": "",
+          "target": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-a-1",
+          "status": "notstarted"
+        },{
+          "id": "5-2-1",
+          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+          "description": "This indicator measures the percentage of adults (18 and older) who have ever experienced physical or sexual violence by an intimate partner. The global target measures the same indicator for women and girls 15 years and older.",
+          "target": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-2-1",
+          "status": "complete"
+        },{
+          "id": "5-2-2",
+          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "description": "",
+          "target": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-2-2",
+          "status": "notstarted"
+        },{
+          "id": "5-x-1",
+          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sexual orientation and gender identity",
+          "description": "",
+          "target": "End discrimination against LGBTQIA+ persons and ensure that LGBTQIA+ persons have equal access to services and employment opportunities",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/5-x-1",
+          "status": "complete"
+        },{
           "id": "5-3-2",
           "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",
           "description": "",
@@ -626,14 +634,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/5-3-2",
           "status": "complete"
-        },{
-          "id": "5-3-1",
-          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
-          "description": "",
-          "target": "Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/5-3-1",
-          "status": "notstarted"
         }]
     }
   },{
@@ -641,6 +641,30 @@
       "id": "6",
       "title": "",
       "indicators": [{
+          "id": "6-5-1",
+          "title": "Degree of integrated water resources management implementation (0 to 100)",
+          "description": "",
+          "target": "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/6-5-1",
+          "status": "complete"
+        },{
+          "id": "6-4-1",
+          "title": "Change in water-use efficiency over time",
+          "description": "",
+          "target": "By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/6-4-1",
+          "status": "notstarted"
+        },{
+          "id": "6-3-1",
+          "title": "Proportion of wastewater safely treated",
+          "description": "",
+          "target": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/6-3-1",
+          "status": "notstarted"
+        },{
           "id": "6-2-1",
           "title": "Proportion of population using safely managed sanitation services, including a handwashing facility with soap and water",
           "description": "",
@@ -649,13 +673,37 @@
           "href": "/open-sdg-site-starter/6-2-1",
           "status": "notstarted"
         },{
-          "id": "6-5-1",
-          "title": "Degree of integrated water resources management implementation (0 to 100)",
+          "id": "6-1-1",
+          "title": "Proportion of population using safely managed drinking water services",
+          "description": "",
+          "target": "By 2030, achieve universal and equitable access to safe and affordable drinking water for all",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/6-1-1",
+          "status": "notstarted"
+        },{
+          "id": "6-6-1",
+          "title": "Change in the extent of water-related ecosystems over time",
+          "description": "",
+          "target": "By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/6-6-1",
+          "status": "complete"
+        },{
+          "id": "6-3-2",
+          "title": "Proportion of bodies of water with good ambient water quality",
+          "description": "",
+          "target": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/6-3-2",
+          "status": "notstarted"
+        },{
+          "id": "6-5-2",
+          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
           "description": "",
           "target": "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate",
           "keywords": "",
-          "href": "/open-sdg-site-starter/6-5-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/6-5-2",
+          "status": "notstarted"
         },{
           "id": "6-4-2",
           "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
@@ -673,60 +721,12 @@
           "href": "/open-sdg-site-starter/6-a-1",
           "status": "notstarted"
         },{
-          "id": "6-3-1",
-          "title": "Proportion of wastewater safely treated",
-          "description": "",
-          "target": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/6-3-1",
-          "status": "notstarted"
-        },{
-          "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
-          "description": "",
-          "target": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/6-3-2",
-          "status": "notstarted"
-        },{
-          "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
-          "description": "",
-          "target": "By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/6-6-1",
-          "status": "complete"
-        },{
-          "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
-          "description": "",
-          "target": "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/6-5-2",
-          "status": "notstarted"
-        },{
           "id": "6-b-1",
           "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
           "description": "",
           "target": "Support and strengthen the participation of local communities in improving water and sanitation management",
           "keywords": "",
           "href": "/open-sdg-site-starter/6-b-1",
-          "status": "notstarted"
-        },{
-          "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
-          "description": "",
-          "target": "By 2030, achieve universal and equitable access to safe and affordable drinking water for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/6-1-1",
-          "status": "notstarted"
-        },{
-          "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
-          "description": "",
-          "target": "By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/6-4-1",
           "status": "notstarted"
         }]
     }
@@ -735,14 +735,6 @@
       "id": "7",
       "title": "",
       "indicators": [{
-          "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
-          "description": "Total electricity consumption in Los Angeles County in in Millions of kWh (GWh)",
-          "target": "By 2030, double the global rate of improvement in energy efficiency",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/7-3-1",
-          "status": "complete"
-        },{
           "id": "7-1-1",
           "title": "Proportion of population with access to electricity",
           "description": "",
@@ -751,13 +743,13 @@
           "href": "/open-sdg-site-starter/7-1-1",
           "status": "notstarted"
         },{
-          "id": "7-b-1",
-          "title": "Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services",
-          "description": "",
-          "target": "By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States and landlocked developing countries, in accordance with their respective programmes of support",
+          "id": "7-2-1",
+          "title": "Renewable energy share in the total final energy consumption",
+          "description": "LADWP power supply by category",
+          "target": "By 2030, increase substantially the share of renewable energy in the global energy mix",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-b-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/7-2-1",
+          "status": "complete"
         },{
           "id": "7-a-1",
           "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
@@ -765,6 +757,14 @@
           "target": "By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology",
           "keywords": "",
           "href": "/open-sdg-site-starter/7-a-1",
+          "status": "complete"
+        },{
+          "id": "7-3-1",
+          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "description": "Total electricity consumption in Los Angeles County in in Millions of kWh (GWh)",
+          "target": "By 2030, double the global rate of improvement in energy efficiency",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/7-3-1",
           "status": "complete"
         },{
           "id": "7-1-2",
@@ -775,13 +775,13 @@
           "href": "/open-sdg-site-starter/7-1-2",
           "status": "complete"
         },{
-          "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
-          "description": "LADWP power supply by category",
-          "target": "By 2030, increase substantially the share of renewable energy in the global energy mix",
+          "id": "7-b-1",
+          "title": "Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services",
+          "description": "",
+          "target": "By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States and landlocked developing countries, in accordance with their respective programmes of support",
           "keywords": "",
-          "href": "/open-sdg-site-starter/7-2-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/7-b-1",
+          "status": "notstarted"
         }]
     }
   },{
@@ -789,52 +789,12 @@
       "id": "8",
       "title": "",
       "indicators": [{
-          "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "id": "8-5-2",
+          "title": "Unemployment rate, by sex, age and persons with disabilities",
           "description": "",
-          "target": "By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization",
+          "target": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-b-1",
-          "status": "complete"
-        },{
-          "id": "8-8-1",
-          "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
-          "description": "",
-          "target": "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-8-1",
-          "status": "complete"
-        },{
-          "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
-          "description": "",
-          "target": "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-1-1",
-          "status": "complete"
-        },{
-          "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
-          "description": "",
-          "target": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-4-2",
-          "status": "notstarted"
-        },{
-          "id": "8-3-1",
-          "title": "Number of Privately Held Businesses in the City of Los Angeles, with Annual Revenue ($M) and Annual Payroll ($M)",
-          "description": "",
-          "target": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-3-1",
-          "status": "complete"
-        },{
-          "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
-          "description": "",
-          "target": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-9-2",
+          "href": "/open-sdg-site-starter/8-5-2",
           "status": "complete"
         },{
           "id": "8-8-2",
@@ -853,12 +813,44 @@
           "href": "/open-sdg-site-starter/8-10-2",
           "status": "complete"
         },{
-          "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "id": "8-9-2",
+          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
           "description": "",
-          "target": "Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms",
+          "target": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-7-1",
+          "href": "/open-sdg-site-starter/8-9-2",
+          "status": "complete"
+        },{
+          "id": "8-b-1",
+          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "description": "",
+          "target": "By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-b-1",
+          "status": "complete"
+        },{
+          "id": "8-5-1",
+          "title": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+          "description": "",
+          "target": "8.5 By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-5-1",
+          "status": "complete"
+        },{
+          "id": "8-3-2",
+          "title": "Number Women-Owned Businesses and Related Sales Revenue in the Los Angeles Metro Area",
+          "description": "",
+          "target": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-3-2",
+          "status": "complete"
+        },{
+          "id": "8-4-2",
+          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "description": "",
+          "target": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-4-2",
           "status": "notstarted"
         },{
           "id": "8-2-1",
@@ -877,28 +869,28 @@
           "href": "/open-sdg-site-starter/8-9-1",
           "status": "complete"
         },{
+          "id": "8-7-1",
+          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "description": "",
+          "target": "Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-7-1",
+          "status": "notstarted"
+        },{
+          "id": "8-3-1",
+          "title": "Number of Privately Held Businesses in the City of Los Angeles, with Annual Revenue ($M) and Annual Payroll ($M)",
+          "description": "",
+          "target": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-3-1",
+          "status": "complete"
+        },{
           "id": "8-4-1",
           "title": "Material Footprint in the City of Los Angeles",
           "description": "",
           "target": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead",
           "keywords": "",
           "href": "/open-sdg-site-starter/8-4-1",
-          "status": "complete"
-        },{
-          "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
-          "description": "",
-          "target": "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-10-1",
-          "status": "notstarted"
-        },{
-          "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
-          "description": "",
-          "target": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-5-2",
           "status": "complete"
         },{
           "id": "8-6-1",
@@ -909,20 +901,28 @@
           "href": "/open-sdg-site-starter/8-6-1",
           "status": "complete"
         },{
-          "id": "8-5-1",
-          "title": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+          "id": "8-10-1",
+          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
           "description": "",
-          "target": "8.5 By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value",
+          "target": "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-5-1",
+          "href": "/open-sdg-site-starter/8-10-1",
+          "status": "notstarted"
+        },{
+          "id": "8-1-1",
+          "title": "Annual growth rate of real GDP per capita",
+          "description": "",
+          "target": "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/8-1-1",
           "status": "complete"
         },{
-          "id": "8-3-2",
-          "title": "Number Women-Owned Businesses and Related Sales Revenue in the Los Angeles Metro Area",
+          "id": "8-8-1",
+          "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
           "description": "",
-          "target": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services",
+          "target": "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment",
           "keywords": "",
-          "href": "/open-sdg-site-starter/8-3-2",
+          "href": "/open-sdg-site-starter/8-8-1",
           "status": "complete"
         }]
     }
@@ -931,37 +931,37 @@
       "id": "9",
       "title": "",
       "indicators": [{
-          "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "id": "9-5-2",
+          "title": "Researchers (in full-time equivalent) per million inhabitants",
           "description": "",
           "target": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-5-1",
+          "href": "/open-sdg-site-starter/9-5-2",
           "status": "notstarted"
         },{
-          "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
-          "description": "",
-          "target": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/9-1-1",
-          "status": "notstarted"
-        },{
-          "id": "9-2-1",
-          "title": "Manufacturing value added as a proportion of GDP and per capita",
+          "id": "9-2-2",
+          "title": "Manufacturing employment as a proportion of total employment",
           "description": "",
           "target": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-2-1",
+          "href": "/open-sdg-site-starter/9-2-2",
+          "status": "complete"
+        },{
+          "id": "9-c-1",
+          "title": "Proportion of population covered by a mobile network, by technology",
+          "description": "",
+          "target": "Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/9-c-1",
           "status": "notstarted"
         },{
-          "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
+          "id": "9-b-1",
+          "title": "Proportion of medium and high-tech industry value added in total value added",
           "description": "",
-          "target": "By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities",
+          "target": "Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-4-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/9-b-1",
+          "status": "notstarted"
         },{
           "id": "9-3-2",
           "title": "Proportion of small-scale industries with a loan or line of credit",
@@ -979,36 +979,12 @@
           "href": "/open-sdg-site-starter/9-1-2",
           "status": "notstarted"
         },{
-          "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "id": "9-1-1",
+          "title": "Proportion of the rural population who live within 2 km of an all-season road",
           "description": "",
-          "target": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending",
+          "target": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and trans-border infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-5-2",
-          "status": "notstarted"
-        },{
-          "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
-          "description": "",
-          "target": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/9-2-2",
-          "status": "complete"
-        },{
-          "id": "9-3-1",
-          "title": "Proportion of small-scale industries in total industry value added",
-          "description": "",
-          "target": "Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/9-3-1",
-          "status": "notstarted"
-        },{
-          "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
-          "description": "",
-          "target": "Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/9-c-1",
+          "href": "/open-sdg-site-starter/9-1-1",
           "status": "notstarted"
         },{
           "id": "9-a-1",
@@ -1019,13 +995,37 @@
           "href": "/open-sdg-site-starter/9-a-1",
           "status": "notstarted"
         },{
-          "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "id": "9-2-1",
+          "title": "Manufacturing value added as a proportion of GDP and per capita",
           "description": "",
-          "target": "Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities",
+          "target": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries",
           "keywords": "",
-          "href": "/open-sdg-site-starter/9-b-1",
+          "href": "/open-sdg-site-starter/9-2-1",
           "status": "notstarted"
+        },{
+          "id": "9-3-1",
+          "title": "Proportion of small-scale industries in total industry value added",
+          "description": "",
+          "target": "Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/9-3-1",
+          "status": "notstarted"
+        },{
+          "id": "9-5-1",
+          "title": "Research and development expenditure as a proportion of GDP",
+          "description": "",
+          "target": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/9-5-1",
+          "status": "notstarted"
+        },{
+          "id": "9-4-1",
+          "title": "CO2 emission per unit of value added",
+          "description": "",
+          "target": "By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/9-4-1",
+          "status": "complete"
         }]
     }
   },{
@@ -1033,12 +1033,20 @@
       "id": "10",
       "title": "",
       "indicators": [{
-          "id": "10-4-1",
-          "title": "Labour share of GDP, comprising wages and social protection transfers",
+          "id": "10-6-1",
+          "title": "Proportion of members and voting rights of developing countries in international organizations",
           "description": "",
-          "target": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality",
+          "target": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-4-1",
+          "href": "/open-sdg-site-starter/10-6-1",
+          "status": "complete"
+        },{
+          "id": "10-7-2",
+          "title": "Number of countries that have implemented well-managed migration policies",
+          "description": "",
+          "target": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/10-7-2",
           "status": "notstarted"
         },{
           "id": "10-x-1",
@@ -1049,14 +1057,6 @@
           "href": "/open-sdg-site-starter/10-x-1",
           "status": "complete"
         },{
-          "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
-          "description": "",
-          "target": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/10-7-1",
-          "status": "notstarted"
-        },{
           "id": "10-1-1",
           "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
           "description": "",
@@ -1065,29 +1065,21 @@
           "href": "/open-sdg-site-starter/10-1-1",
           "status": "notstarted"
         },{
-          "id": "10-7-2",
-          "title": "Number of countries that have implemented well-managed migration policies",
+          "id": "10-7-1",
+          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
           "description": "",
           "target": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-7-2",
+          "href": "/open-sdg-site-starter/10-7-1",
           "status": "notstarted"
         },{
-          "id": "10-6-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "id": "10-4-1",
+          "title": "Labour share of GDP, comprising wages and social protection transfers",
           "description": "",
-          "target": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions",
+          "target": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality",
           "keywords": "",
-          "href": "/open-sdg-site-starter/10-6-1",
-          "status": "complete"
-        },{
-          "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
-          "description": "This indicator shows the percentage of full-time, year-round workers with earnings in each earning category (less than $25,000, between $25,000 and $50,000, between $50,000 and $75,000, and above $75,000. Median income in the City of LA has changed in the years 2009-2017 but has stayed around $35,000 - $40,000.",
-          "target": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/10-2-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/10-4-1",
+          "status": "notstarted"
         },{
           "id": "10-3-1",
           "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
@@ -1096,6 +1088,14 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/10-3-1",
           "status": "notstarted"
+        },{
+          "id": "10-2-1",
+          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "description": "This indicator shows the percentage of full-time, year-round workers with earnings in each earning category (less than $25,000, between $25,000 and $50,000, between $50,000 and $75,000, and above $75,000. Median income in the City of LA has changed in the years 2009-2017 but has stayed around $35,000 - $40,000.",
+          "target": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/10-2-1",
+          "status": "complete"
         }]
     }
   },{
@@ -1103,20 +1103,68 @@
       "id": "11",
       "title": "",
       "indicators": [{
-          "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
-          "description": "",
-          "target": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-7-2",
-          "status": "complete"
-        },{
           "id": "11-5-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
           "description": "",
           "target": "By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations",
           "keywords": "",
           "href": "/open-sdg-site-starter/11-5-1",
+          "status": "complete"
+        },{
+          "id": "11-4-1",
+          "title": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",
+          "description": "",
+          "target": "Strengthen efforts to protect and safeguard the world’s cultural and natural heritage",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-4-1",
+          "status": "complete"
+        },{
+          "id": "11-3-1",
+          "title": "Ratio of land consumption rate to population growth rate",
+          "description": "",
+          "target": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-3-1",
+          "status": "notstarted"
+        },{
+          "id": "11-b-1",
+          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "description": "",
+          "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-b-1",
+          "status": "complete"
+        },{
+          "id": "11-3-2",
+          "title": "Whether or not the city has a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "description": "",
+          "target": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-3-2",
+          "status": "notstarted"
+        },{
+          "id": "11-2-1",
+          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "description": "",
+          "target": "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-2-1",
+          "status": "complete"
+        },{
+          "id": "11-6-1",
+          "title": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
+          "description": "",
+          "target": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-6-1",
+          "status": "complete"
+        },{
+          "id": "11-6-2",
+          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+          "description": "",
+          "target": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-6-2",
           "status": "complete"
         },{
           "id": "11-a-1",
@@ -1135,68 +1183,12 @@
           "href": "/open-sdg-site-starter/11-c-1",
           "status": "notstarted"
         },{
-          "id": "11-6-1",
-          "title": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
+          "id": "11-1-1",
+          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
           "description": "",
-          "target": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management",
+          "target": "By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-6-1",
-          "status": "complete"
-        },{
-          "id": "11-b-1",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
-          "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-b-1",
-          "status": "complete"
-        },{
-          "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
-          "description": "",
-          "target": "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-2-1",
-          "status": "complete"
-        },{
-          "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
-          "description": "",
-          "target": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-7-1",
-          "status": "complete"
-        },{
-          "id": "11-4-1",
-          "title": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",
-          "description": "",
-          "target": "Strengthen efforts to protect and safeguard the world’s cultural and natural heritage",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-4-1",
-          "status": "complete"
-        },{
-          "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
-          "description": "",
-          "target": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-6-2",
-          "status": "complete"
-        },{
-          "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
-          "description": "",
-          "target": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-3-1",
-          "status": "notstarted"
-        },{
-          "id": "11-b-2",
-          "title": "Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
-          "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/11-b-2",
+          "href": "/open-sdg-site-starter/11-1-1",
           "status": "complete"
         },{
           "id": "11-5-2",
@@ -1207,21 +1199,29 @@
           "href": "/open-sdg-site-starter/11-5-2",
           "status": "complete"
         },{
-          "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
+          "id": "11-7-1",
+          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
           "description": "",
-          "target": "By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums",
+          "target": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-1-1",
+          "href": "/open-sdg-site-starter/11-7-1",
           "status": "complete"
         },{
-          "id": "11-3-2",
-          "title": "Whether or not the city has a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "id": "11-b-2",
+          "title": "Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
-          "target": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries",
+          "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels",
           "keywords": "",
-          "href": "/open-sdg-site-starter/11-3-2",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/11-b-2",
+          "status": "complete"
+        },{
+          "id": "11-7-2",
+          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+          "description": "",
+          "target": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/11-7-2",
+          "status": "complete"
         }]
     }
   },{
@@ -1237,60 +1237,20 @@
           "href": "/open-sdg-site-starter/12-1-1",
           "status": "notstarted"
         },{
+          "id": "12-3-1",
+          "title": "Global food loss index",
+          "description": "",
+          "target": "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/12-3-1",
+          "status": "notstarted"
+        },{
           "id": "12-b-1",
           "title": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
           "description": "",
           "target": "Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products",
           "keywords": "",
           "href": "/open-sdg-site-starter/12-b-1",
-          "status": "notstarted"
-        },{
-          "id": "12-4-2",
-          "title": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",
-          "description": "",
-          "target": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/12-4-2",
-          "status": "notstarted"
-        },{
-          "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
-          "description": "",
-          "target": "Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/12-c-1",
-          "status": "notstarted"
-        },{
-          "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
-          "description": "",
-          "target": "By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/12-8-1",
-          "status": "notstarted"
-        },{
-          "id": "12-5-1",
-          "title": "National recycling rate, tons of material recycled",
-          "description": "",
-          "target": "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/12-5-1",
-          "status": "complete"
-        },{
-          "id": "12-7-1",
-          "title": "Whether or not the City of Los Angeles has sustainable public procurement policies and action plans",
-          "description": "",
-          "target": "Promote public procurement practices that are sustainable, in accordance with national policies and priorities",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/12-7-1",
-          "status": "complete"
-        },{
-          "id": "12-2-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
-          "description": "",
-          "target": "By 2030, achieve the sustainable management and efficient use of natural resources",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/12-2-1",
           "status": "notstarted"
         },{
           "id": "12-a-1",
@@ -1301,13 +1261,13 @@
           "href": "/open-sdg-site-starter/12-a-1",
           "status": "notstarted"
         },{
-          "id": "12-4-1",
-          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
+          "id": "12-2-1",
+          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
           "description": "",
-          "target": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment",
+          "target": "By 2030, achieve the sustainable management and efficient use of natural resources",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-4-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/12-2-1",
+          "status": "notstarted"
         },{
           "id": "12-6-1",
           "title": "Number of companies publishing sustainability reports",
@@ -1317,12 +1277,36 @@
           "href": "/open-sdg-site-starter/12-6-1",
           "status": "notstarted"
         },{
-          "id": "12-3-1",
-          "title": "Global food loss index",
+          "id": "12-4-1",
+          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
           "description": "",
-          "target": "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses",
+          "target": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment",
           "keywords": "",
-          "href": "/open-sdg-site-starter/12-3-1",
+          "href": "/open-sdg-site-starter/12-4-1",
+          "status": "complete"
+        },{
+          "id": "12-c-1",
+          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
+          "description": "",
+          "target": "Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/12-c-1",
+          "status": "notstarted"
+        },{
+          "id": "12-7-1",
+          "title": "Whether or not the City of Los Angeles has sustainable public procurement policies and action plans",
+          "description": "",
+          "target": "Promote public procurement practices that are sustainable, in accordance with national policies and priorities",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/12-7-1",
+          "status": "complete"
+        },{
+          "id": "12-4-2",
+          "title": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",
+          "description": "",
+          "target": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/12-4-2",
           "status": "notstarted"
         },{
           "id": "12-2-2",
@@ -1331,6 +1315,22 @@
           "target": "By 2030, achieve the sustainable management and efficient use of natural resources",
           "keywords": "",
           "href": "/open-sdg-site-starter/12-2-2",
+          "status": "notstarted"
+        },{
+          "id": "12-5-1",
+          "title": "National recycling rate, tons of material recycled",
+          "description": "",
+          "target": "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/12-5-1",
+          "status": "complete"
+        },{
+          "id": "12-8-1",
+          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "description": "",
+          "target": "By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/12-8-1",
           "status": "notstarted"
         }]
     }
@@ -1347,22 +1347,6 @@
           "href": "/open-sdg-site-starter/13-3-2",
           "status": "notstarted"
         },{
-          "id": "13-1-2",
-          "title": "Whether or not the country has adopted and implemented a national disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
-          "target": "Integrate climate change measures into national policies, strategies and planning",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/13-1-2",
-          "status": "complete"
-        },{
-          "id": "13-3-1",
-          "title": "Number of communities that have integrated mitigation, adaptation, impact reduction and early warning practices into neighborhood emergency preparedness plans",
-          "description": "",
-          "target": "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/13-3-1",
-          "status": "notstarted"
-        },{
           "id": "13-b-1",
           "title": "Number of residents and/or communities receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management (e.g., solar installation and weatherization, tree planting, etc.), including focusing on women, youth and local and marginalized communities",
           "description": "",
@@ -1371,13 +1355,13 @@
           "href": "/open-sdg-site-starter/13-b-1",
           "status": "notstarted"
         },{
-          "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "id": "13-3-1",
+          "title": "Number of communities that have integrated mitigation, adaptation, impact reduction and early warning practices into neighborhood emergency preparedness plans",
           "description": "",
-          "target": "Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries",
+          "target": "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning",
           "keywords": "",
-          "href": "/open-sdg-site-starter/13-1-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/13-3-1",
+          "status": "notstarted"
         },{
           "id": "13-2-1",
           "title": "Number of City departments that have adopted and integrated the Sustainability pLAn / Green New Deal policies/strategies/plans which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a local adaptation plan, locally determined contribution, local communication, biennial update report or other)",
@@ -1394,6 +1378,22 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/13-1-3",
           "status": "complete"
+        },{
+          "id": "13-1-2",
+          "title": "Whether or not the country has adopted and implemented a national disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "description": "",
+          "target": "Integrate climate change measures into national policies, strategies and planning",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/13-1-2",
+          "status": "complete"
+        },{
+          "id": "13-1-1",
+          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "description": "",
+          "target": "Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/13-1-1",
+          "status": "complete"
         }]
     }
   },{
@@ -1401,36 +1401,12 @@
       "id": "14",
       "title": "",
       "indicators": [{
-          "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
-          "description": "",
-          "target": "Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/14-a-1",
-          "status": "notstarted"
-        },{
           "id": "14-5-1",
           "title": "Coverage of protected areas in relation to marine areas",
           "description": "",
           "target": "By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information",
           "keywords": "",
           "href": "/open-sdg-site-starter/14-5-1",
-          "status": "notstarted"
-        },{
-          "id": "14-3-1",
-          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
-          "description": "",
-          "target": "Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/14-3-1",
-          "status": "notstarted"
-        },{
-          "id": "14-b-1",
-          "title": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
-          "description": "",
-          "target": "Provide access for small-scale artisanal fishers to marine resources and markets",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/14-b-1",
           "status": "notstarted"
         },{
           "id": "14-1-1",
@@ -1441,12 +1417,44 @@
           "href": "/open-sdg-site-starter/14-1-1",
           "status": "notstarted"
         },{
+          "id": "14-3-1",
+          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
+          "description": "",
+          "target": "Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/14-3-1",
+          "status": "notstarted"
+        },{
           "id": "14-2-1",
           "title": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
           "description": "",
           "target": "By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans",
           "keywords": "",
           "href": "/open-sdg-site-starter/14-2-1",
+          "status": "notstarted"
+        },{
+          "id": "14-7-1",
+          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
+          "description": "",
+          "target": "By 2030, increase the economic benefits to small island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/14-7-1",
+          "status": "notstarted"
+        },{
+          "id": "14-b-1",
+          "title": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "description": "",
+          "target": "Provide access for small-scale artisanal fishers to marine resources and markets",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/14-b-1",
+          "status": "notstarted"
+        },{
+          "id": "14-a-1",
+          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "description": "",
+          "target": "Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/14-a-1",
           "status": "notstarted"
         },{
           "id": "14-c-1",
@@ -1464,14 +1472,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/14-4-1",
           "status": "notstarted"
-        },{
-          "id": "14-7-1",
-          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
-          "description": "",
-          "target": "By 2030, increase the economic benefits to small island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/14-7-1",
-          "status": "notstarted"
         }]
     }
   },{
@@ -1479,30 +1479,6 @@
       "id": "15",
       "title": "",
       "indicators": [{
-          "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
-          "description": "",
-          "target": "Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/15-c-1",
-          "status": "notstarted"
-        },{
-          "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
-          "description": "",
-          "target": "Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/15-7-1",
-          "status": "notstarted"
-        },{
-          "id": "15-5-1",
-          "title": "Red List Index",
-          "description": "",
-          "target": "Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/15-5-1",
-          "status": "notstarted"
-        },{
           "id": "15-1-1",
           "title": "Forest area as a proportion of total land area",
           "description": "",
@@ -1511,36 +1487,12 @@
           "href": "/open-sdg-site-starter/15-1-1",
           "status": "notstarted"
         },{
-          "id": "15-4-2",
-          "title": "Mountain Green Cover Index",
+          "id": "15-4-1",
+          "title": "Coverage by protected areas of important sites for mountain biodiversity",
           "description": "",
           "target": "By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-4-2",
-          "status": "notstarted"
-        },{
-          "id": "15-2-1",
-          "title": "Progress towards sustainable forest management",
-          "description": "",
-          "target": "By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/15-2-1",
-          "status": "notstarted"
-        },{
-          "id": "15-9-1",
-          "title": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020",
-          "description": "",
-          "target": "By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/15-9-1",
-          "status": "notstarted"
-        },{
-          "id": "15-a-1",
-          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
-          "description": "",
-          "target": "Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/15-a-1",
+          "href": "/open-sdg-site-starter/15-4-1",
           "status": "notstarted"
         },{
           "id": "15-8-1",
@@ -1559,6 +1511,22 @@
           "href": "/open-sdg-site-starter/15-b-1",
           "status": "notstarted"
         },{
+          "id": "15-1-2",
+          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "description": "",
+          "target": "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/15-1-2",
+          "status": "notstarted"
+        },{
+          "id": "15-2-1",
+          "title": "Progress towards sustainable forest management",
+          "description": "",
+          "target": "By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/15-2-1",
+          "status": "notstarted"
+        },{
           "id": "15-3-1",
           "title": "Proportion of land that is degraded over total land area",
           "description": "",
@@ -1575,20 +1543,52 @@
           "href": "/open-sdg-site-starter/15-6-1",
           "status": "notstarted"
         },{
-          "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "id": "15-7-1",
+          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "description": "",
+          "target": "Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/15-7-1",
+          "status": "notstarted"
+        },{
+          "id": "15-9-1",
+          "title": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020",
+          "description": "",
+          "target": "By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/15-9-1",
+          "status": "notstarted"
+        },{
+          "id": "15-c-1",
+          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "description": "",
+          "target": "Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/15-c-1",
+          "status": "notstarted"
+        },{
+          "id": "15-4-2",
+          "title": "Mountain Green Cover Index",
           "description": "",
           "target": "By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-4-1",
+          "href": "/open-sdg-site-starter/15-4-2",
           "status": "notstarted"
         },{
-          "id": "15-1-2",
-          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "id": "15-5-1",
+          "title": "Red List Index",
           "description": "",
-          "target": "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements",
+          "target": "Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species",
           "keywords": "",
-          "href": "/open-sdg-site-starter/15-1-2",
+          "href": "/open-sdg-site-starter/15-5-1",
+          "status": "notstarted"
+        },{
+          "id": "15-a-1",
+          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "description": "",
+          "target": "Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/15-a-1",
           "status": "notstarted"
         }]
     }
@@ -1597,6 +1597,62 @@
       "id": "16",
       "title": "",
       "indicators": [{
+          "id": "16-1-1",
+          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
+          "description": "",
+          "target": "Significantly reduce all forms of violence and related death rates everywhere",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-1-1",
+          "status": "complete"
+        },{
+          "id": "16-10-1",
+          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
+          "description": "",
+          "target": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-10-1",
+          "status": "notstarted"
+        },{
+          "id": "16-4-2",
+          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
+          "description": "",
+          "target": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-4-2",
+          "status": "complete"
+        },{
+          "id": "16-10-2",
+          "title": "Number of City departments that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+          "description": "",
+          "target": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-10-2",
+          "status": "complete"
+        },{
+          "id": "16-1-4",
+          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "description": "",
+          "target": "16.1 Significantly reduce all forms of violence and related death rates everywhere",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-1-4",
+          "status": "notstarted"
+        },{
+          "id": "16-4-1",
+          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
+          "description": "",
+          "target": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-4-1",
+          "status": "notstarted"
+        },{
+          "id": "16-b-1",
+          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "description": "",
+          "target": "Promote and enforce non-discriminatory laws and policies for sustainable development",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-b-1",
+          "status": "complete"
+        },{
           "id": "16-5-2",
           "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
           "description": "",
@@ -1621,6 +1677,38 @@
           "href": "/open-sdg-site-starter/16-3-2",
           "status": "complete"
         },{
+          "id": "16-8-1",
+          "title": "Proportion of eligible voters registered by demographic",
+          "description": "",
+          "target": "Broaden and strengthen the participation of developing countries in the institutions of global governance",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-8-1",
+          "status": "notstarted"
+        },{
+          "id": "16-a-1",
+          "title": "Existence of independent national human rights institutions in compliance with the Paris Principles",
+          "description": "",
+          "target": "Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-a-1",
+          "status": "notstarted"
+        },{
+          "id": "16-6-2",
+          "title": "Proportion of population satisfied with their last experience of public services",
+          "description": "",
+          "target": "Develop effective, accountable and transparent institutions at all levels",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-6-2",
+          "status": "notstarted"
+        },{
+          "id": "16-9-1",
+          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+          "description": "",
+          "target": "By 2030, provide legal identity for all, including birth registration",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-9-1",
+          "status": "notstarted"
+        },{
           "id": "16-2-2",
           "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
           "description": "",
@@ -1637,140 +1725,12 @@
           "href": "/open-sdg-site-starter/16-7-1",
           "status": "notstarted"
         },{
-          "id": "16-4-2",
-          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
-          "description": "",
-          "target": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-4-2",
-          "status": "complete"
-        },{
-          "id": "16-9-1",
-          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
-          "description": "",
-          "target": "By 2030, provide legal identity for all, including birth registration",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-9-1",
-          "status": "notstarted"
-        },{
-          "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
-          "description": "City Budget Expense by Department/Fund",
-          "target": "Develop effective, accountable and transparent institutions at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-6-1",
-          "status": "complete"
-        },{
-          "id": "16-1-1",
-          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
-          "description": "",
-          "target": "Significantly reduce all forms of violence and related death rates everywhere",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-1",
-          "status": "complete"
-        },{
-          "id": "16-4-1",
-          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
-          "description": "",
-          "target": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-4-1",
-          "status": "notstarted"
-        },{
-          "id": "16-8-1",
-          "title": "Proportion of eligible voters registered by demographic",
-          "description": "",
-          "target": "Broaden and strengthen the participation of developing countries in the institutions of global governance",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-8-1",
-          "status": "notstarted"
-        },{
-          "id": "16-1-3",
-          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
-          "description": "",
-          "target": "16.1 Significantly reduce all forms of violence and related death rates everywhere",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-3",
-          "status": "complete"
-        },{
-          "id": "16-10-2",
-          "title": "Number of City departments that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
-          "description": "",
-          "target": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-10-2",
-          "status": "complete"
-        },{
-          "id": "16-6-2",
-          "title": "Proportion of population satisfied with their last experience of public services",
-          "description": "",
-          "target": "Develop effective, accountable and transparent institutions at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-6-2",
-          "status": "notstarted"
-        },{
-          "id": "16-b-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
-          "description": "",
-          "target": "Promote and enforce non-discriminatory laws and policies for sustainable development",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-b-1",
-          "status": "complete"
-        },{
-          "id": "16-a-1",
-          "title": "Existence of independent national human rights institutions in compliance with the Paris Principles",
-          "description": "",
-          "target": "Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-a-1",
-          "status": "notstarted"
-        },{
-          "id": "16-3-1",
-          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
-          "description": "",
-          "target": "Promote the rule of law at the national and international levels and ensure equal access to justice for all",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-3-1",
-          "status": "notstarted"
-        },{
-          "id": "16-2-3",
-          "title": "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18",
-          "description": "",
-          "target": "End abuse, exploitation, trafficking and all forms of violence against and torture of children",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-2-3",
-          "status": "complete"
-        },{
           "id": "16-1-2",
           "title": "Number of gun-violence victims, by sex, age and cause",
           "description": "",
           "target": "Significantly reduce all forms of violence and related death rates everywhere",
           "keywords": "",
           "href": "/open-sdg-site-starter/16-1-2",
-          "status": "complete"
-        },{
-          "id": "16-5-1",
-          "title": "Number of persons who had at least one contact with a public official and who paid a bribe to a public official, and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
-          "description": "All public corruption prosecutions within each district including cases handled by the United States Attorneys’ Offices and the Justice Department's Public Integrity Section.",
-          "target": "Substantially reduce corruption and bribery in all their forms",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-5-1",
-          "status": "complete"
-        },{
-          "id": "16-10-1",
-          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
-          "description": "",
-          "target": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-10-1",
-          "status": "notstarted"
-        },{
-          "id": "16-7-2",
-          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
-          "description": "",
-          "target": "Ensure responsive, inclusive, participatory and representative decision-making at all levels",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/16-7-2",
           "status": "complete"
         },{
           "id": "16-2-1",
@@ -1781,13 +1741,53 @@
           "href": "/open-sdg-site-starter/16-2-1",
           "status": "notstarted"
         },{
-          "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "id": "16-5-1",
+          "title": "Number of persons who had at least one contact with a public official and who paid a bribe to a public official, and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "description": "All public corruption prosecutions within each district including cases handled by the United States Attorneys’ Offices and the Justice Department's Public Integrity Section.",
+          "target": "Substantially reduce corruption and bribery in all their forms",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-5-1",
+          "status": "complete"
+        },{
+          "id": "16-7-2",
+          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
+          "description": "",
+          "target": "Ensure responsive, inclusive, participatory and representative decision-making at all levels",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-7-2",
+          "status": "complete"
+        },{
+          "id": "16-3-1",
+          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
+          "description": "",
+          "target": "Promote the rule of law at the national and international levels and ensure equal access to justice for all",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-3-1",
+          "status": "notstarted"
+        },{
+          "id": "16-6-1",
+          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "description": "City Budget Expense by Department/Fund",
+          "target": "Develop effective, accountable and transparent institutions at all levels",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-6-1",
+          "status": "complete"
+        },{
+          "id": "16-1-3",
+          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
           "description": "",
           "target": "16.1 Significantly reduce all forms of violence and related death rates everywhere",
           "keywords": "",
-          "href": "/open-sdg-site-starter/16-1-4",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/16-1-3",
+          "status": "complete"
+        },{
+          "id": "16-2-3",
+          "title": "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18",
+          "description": "",
+          "target": "End abuse, exploitation, trafficking and all forms of violence against and torture of children",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/16-2-3",
+          "status": "complete"
         }]
     }
   },{
@@ -1795,164 +1795,12 @@
       "id": "17",
       "title": "",
       "indicators": [{
-          "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
-          "description": "",
-          "target": "Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-11-1",
-          "status": "notstarted"
-        },{
-          "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
-          "description": "",
-          "target": "Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-9-1",
-          "status": "complete"
-        },{
-          "id": "17-16-1",
-          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
-          "description": "",
-          "target": "Enhance the Global Partnership for Sustainable Development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the Sustainable Development Goals in all countries, in particular developing countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-16-1",
-          "status": "notstarted"
-        },{
-          "id": "17-10-1",
-          "title": "Worldwide weighted tariff-average",
-          "description": "",
-          "target": "Promote a universal, rules-based, open, non‑discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-10-1",
-          "status": "notstarted"
-        },{
-          "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
-          "description": "",
-          "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-18-2",
-          "status": "notstarted"
-        },{
-          "id": "17-1-1",
-          "title": "Total government revenue as a proportion of GDP, by source",
-          "description": "",
-          "target": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-1-1",
-          "status": "complete"
-        },{
-          "id": "17-6-2",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
-          "description": "",
-          "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-6-2",
-          "status": "complete"
-        },{
-          "id": "17-18-1",
-          "title": "Proportion of sustainable development indicators reported with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
-          "description": "",
-          "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-18-1",
-          "status": "complete"
-        },{
-          "id": "17-3-1",
-          "title": "Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",
+          "id": "17-3-2",
+          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
           "description": "",
           "target": "Mobilize additional financial resources for developing countries from multiple sources",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-3-1",
-          "status": "complete"
-        },{
-          "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
-          "description": "",
-          "target": "Enhance global macroeconomic stability, including through policy coordination and policy coherence",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-13-1",
-          "status": "notstarted"
-        },{
-          "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
-          "description": "",
-          "target": "Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-8-1",
-          "status": "complete"
-        },{
-          "id": "17-7-1",
-          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
-          "description": "",
-          "target": "Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-7-1",
-          "status": "notstarted"
-        },{
-          "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
-          "description": "",
-          "target": "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-19-1",
-          "status": "complete"
-        },{
-          "id": "17-18-3",
-          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
-          "description": "",
-          "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-18-3",
-          "status": "notstarted"
-        },{
-          "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for least developed countries",
-          "description": "",
-          "target": "Adopt and implement investment promotion regimes for least developed countries",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-5-1",
-          "status": "notstarted"
-        },{
-          "id": "17-6-1",
-          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
-          "description": "",
-          "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-6-1",
-          "status": "notstarted"
-        },{
-          "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
-          "description": "Tax revenue in the City of Los Angeles is part of the City's General Fund.",
-          "target": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-1-2",
-          "status": "complete"
-        },{
-          "id": "17-12-1",
-          "title": "Average tariffs faced by developing countries, least developed countries and small island developing States",
-          "description": "",
-          "target": "Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-12-1",
-          "status": "notstarted"
-        },{
-          "id": "17-15-1",
-          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
-          "description": "",
-          "target": "Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-15-1",
-          "status": "complete"
-        },{
-          "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
-          "description": "",
-          "target": "Enhance policy coherence for sustainable development",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/17-14-1",
+          "href": "/open-sdg-site-starter/17-3-2",
           "status": "notstarted"
         },{
           "id": "17-19-2",
@@ -1963,13 +1811,93 @@
           "href": "/open-sdg-site-starter/17-19-2",
           "status": "complete"
         },{
-          "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "id": "17-18-1",
+          "title": "Proportion of sustainable development indicators reported with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
+          "description": "",
+          "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-18-1",
+          "status": "complete"
+        },{
+          "id": "17-9-1",
+          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "description": "",
+          "target": "Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-9-1",
+          "status": "complete"
+        },{
+          "id": "17-6-1",
+          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
+          "description": "",
+          "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-6-1",
+          "status": "notstarted"
+        },{
+          "id": "17-8-1",
+          "title": "Proportion of individuals using the Internet",
+          "description": "",
+          "target": "Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-8-1",
+          "status": "complete"
+        },{
+          "id": "17-18-3",
+          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
+          "description": "",
+          "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-18-3",
+          "status": "notstarted"
+        },{
+          "id": "17-16-1",
+          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
+          "description": "",
+          "target": "Enhance the Global Partnership for Sustainable Development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the Sustainable Development Goals in all countries, in particular developing countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-16-1",
+          "status": "notstarted"
+        },{
+          "id": "17-3-1",
+          "title": "Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",
           "description": "",
           "target": "Mobilize additional financial resources for developing countries from multiple sources",
           "keywords": "",
-          "href": "/open-sdg-site-starter/17-3-2",
+          "href": "/open-sdg-site-starter/17-3-1",
+          "status": "complete"
+        },{
+          "id": "17-10-1",
+          "title": "Worldwide weighted tariff-average",
+          "description": "",
+          "target": "Promote a universal, rules-based, open, non‑discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-10-1",
           "status": "notstarted"
+        },{
+          "id": "17-14-1",
+          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "description": "",
+          "target": "Enhance policy coherence for sustainable development",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-14-1",
+          "status": "notstarted"
+        },{
+          "id": "17-1-2",
+          "title": "Proportion of domestic budget funded by domestic taxes",
+          "description": "Tax revenue in the City of Los Angeles is part of the City's General Fund.",
+          "target": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-1-2",
+          "status": "complete"
+        },{
+          "id": "17-1-1",
+          "title": "Total government revenue as a proportion of GDP, by source",
+          "description": "",
+          "target": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-1-1",
+          "status": "complete"
         },{
           "id": "17-17-1",
           "title": "Amount of United States dollars committed to public-private and civil society partnerships",
@@ -1977,6 +1905,78 @@
           "target": "Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships",
           "keywords": "",
           "href": "/open-sdg-site-starter/17-17-1",
+          "status": "notstarted"
+        },{
+          "id": "17-15-1",
+          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
+          "description": "",
+          "target": "Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-15-1",
+          "status": "complete"
+        },{
+          "id": "17-18-2",
+          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
+          "description": "",
+          "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-18-2",
+          "status": "notstarted"
+        },{
+          "id": "17-5-1",
+          "title": "Number of countries that adopt and implement investment promotion regimes for least developed countries",
+          "description": "",
+          "target": "Adopt and implement investment promotion regimes for least developed countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-5-1",
+          "status": "notstarted"
+        },{
+          "id": "17-19-1",
+          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
+          "description": "",
+          "target": "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-19-1",
+          "status": "complete"
+        },{
+          "id": "17-11-1",
+          "title": "Developing countries’ and least developed countries’ share of global exports",
+          "description": "",
+          "target": "Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-11-1",
+          "status": "notstarted"
+        },{
+          "id": "17-6-2",
+          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "description": "",
+          "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-6-2",
+          "status": "complete"
+        },{
+          "id": "17-7-1",
+          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+          "description": "",
+          "target": "Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-7-1",
+          "status": "notstarted"
+        },{
+          "id": "17-13-1",
+          "title": "Macroeconomic Dashboard",
+          "description": "",
+          "target": "Enhance global macroeconomic stability, including through policy coordination and policy coherence",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-13-1",
+          "status": "notstarted"
+        },{
+          "id": "17-12-1",
+          "title": "Average tariffs faced by developing countries, least developed countries and small island developing States",
+          "description": "",
+          "target": "Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/17-12-1",
           "status": "notstarted"
         }]
     }
