@@ -518,7 +518,7 @@
           "status": "complete"
         },{
           "id": "4-a-x",
-          "title": "Proportion of students who (a) believe adults at their school are fair to people of all backgrounds (race, religion, rich/poor, etc.); (b) feel that the cafeteria and lunch areas at their school are clean; (c) feel that the bathrooms at their school are clean; (c) feel safe on school grounds (d) feel safe in the neighborhood outside the school; and (e) believe that bullying is not a problem at their school.",
+          "title": "Proportion of students who (d) feel safe on school grounds and (b) feel safe in the neighborhood outside the school",
           "description": "Proportions of students in LAUSD high schools who agree or agree strongly with the statements 'I feel safe at school' and 'I feel safe in the neighborhood around school' in the LAUSD school experience surveys.",
           "target": "Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all",
           "keywords": "",
