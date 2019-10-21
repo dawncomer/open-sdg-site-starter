@@ -17,22 +17,15 @@ url: ""
 data_dir: data
 environment: staging
 # Replace MY-GITHUB-ORG and OPEN-SDG-DATA-STARTER as needed.
-remotedatabaseurl: "https://dawncomer.github.io/open-sdg-data-starter"
+remote_data_prefix: https://dawncomer.github.io/open-sdg-data-starter
+remote_translations:
+  - https://open-sdg.github.io/sdg-translations/translations-0.8.1.json
 
-jekyll_get_json:
-  - data: meta
-    # Replace MY-GITHUB-ORG and OPEN-SDG-DATA-STARTER as needed.
-    json: 'https://dawncomer.github.io/open-sdg-data-starter/meta/all.json'
-  - data: headlines
-    # Replace MY-GITHUB-ORG and OPEN-SDG-DATA-STARTER as needed.
-    json: 'https://dawncomer.github.io/open-sdg-data-starter/headline/all.json'
-  - data: schema
-    # Replace MY-GITHUB-ORG and OPEN-SDG-DATA-STARTER as needed.
-    json: 'https://dawncomer.github.io/open-sdg-data-starter/meta/schema.json'
-  - data: reporting
-    json: 'https://dawncomer.github.io/open-sdg-data-starter/stats/reporting.json'
-  - data: translations
-    json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.1.json'
+create_indicators:
+  layout: indicator
+create_goals:
+  layout: goal-by-target
+create_pages: true
 
 analytics:
   ga_prod: ''
@@ -87,7 +80,7 @@ menu:
     # The "translation_key" refers to the key in the SDG Translations repository.
     translation_key: data summary
   - path: /publications/
-    translation_key: menu.publications 
+    translation_key: menu.publications
   - path: /about
     translation_key: menu.about
 
@@ -113,11 +106,10 @@ goal_image_base: https://open-sdg.github.io/sdg-translations/assets/img/goals
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
   - jekyll-remote-theme
-  - jekyll-get-json
   - jekyll-open-sdg-plugins
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: brockfanning/open-sdg@chartjs-component-cleanup
+remote_theme: open-sdg/open-sdg@0.9.4
 
 # Apply any custom CSS.
 custom_css:
