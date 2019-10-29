@@ -12,3 +12,6 @@
 #main-content.goal-indicators .indicator-cards.target {
   margin-bottom: 1.5rem;
   clear: left; }
+
+.notapplicable {
+  background-color: #B7B7B7; }
