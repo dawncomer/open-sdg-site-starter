@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20191126230746">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20191126235927">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20191126230746"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20191126235927"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -301,7 +301,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Percentage of Adults who have ever experienced physical or sexual violence by an intimate partner</h2>
+      <h2>Total number of intimate partner assaults reported</h2>
     </div>
   </div>
 
@@ -310,9 +310,9 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_5-2-1' data-id="5-2-1" data-country="County of Los Angeles"
-  data-charttitle="Percentage of Adults who have ever experienced physical or sexual violence by an intimate partner" data-measurementunit="Percentage" data-datasource="Los Angeles County Community Health Survey, 2011 and 2015 data" data-copyright=""
-  data-geographicalarea="County of Los Angeles" data-footnote="" data-showdata="true" data-graphtype="bar"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_5-2-1' data-id="5-2-1" data-country="City of Los Angeles"
+  data-charttitle="Total number of intimate partner assaults reported" data-measurementunit="Total number" data-datasource="Los Angeles Police Department" data-copyright=""
+  data-geographicalarea="City of Los Angeles" data-footnote="" data-showdata="true" data-graphtype="bar"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
     <div id="indicator-sidebar" class="col-md-3">
@@ -348,8 +348,124 @@ var translations = {
       <caption></caption>
       <thead>
         
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td class="table-value">8548</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td class="table-value">8300</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td class="table-value">8457</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td class="table-value">8188</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td class="table-value">10165</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">11924</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">11811</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">11925</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td class="table-value">11735</td>
+          
+          
+        </tr>
         
       </tbody>
     </table>
@@ -406,7 +522,7 @@ data-event-label="Change to Map tab"
     
     <div id="selectionsChart">
       <div id="chart-canvas">
-        <h3 class="chart-title">Percentage of Adults who have ever experienced physical or sexual violence by an intimate partner</h3>
+        <h3 class="chart-title">Total number of intimate partner assaults reported</h3>
         <div id="chart" class="plot-container">
           
 <canvas></canvas>
@@ -515,7 +631,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            <p>This indicator measures the percentage of adults (18 and older) who have ever experienced physical or sexual violence by an intimate partner. The global target measures the same indicator for women and girls 15 years and older.</p>
+            <p>Total number of intimate partner assaults reported</p>
 
           
         </td>
@@ -528,7 +644,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>County of Los Angeles</p>
+            <p>City of Los Angeles</p>
 
           
         </td>
@@ -541,7 +657,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Percentage</p>
+            <p>Total number</p>
 
           
         </td>
@@ -606,7 +722,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>Data gathered from the 2015 and 2011 Los Angeles County Community Health Survey</p>
+            
 
           
         </td>
@@ -625,8 +741,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/710c82e0f2777c33eb264fac781f9180cd9dad91" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/dea6875da38ea4ef97881ec3daa589860cd3136f" target="_blank">
+                2019-11-26: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -650,8 +766,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/d4f4104337d4b268b478d28547bb0408cca8df83" target="_blank">
-                2019-10-04: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/08cd33f6c12c83cf2663269200929ada7fc122ec" target="_blank">
+                2019-11-26: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1046,7 +1162,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Los Angeles County Community Health Survey, 2011 and 2015 data</p>
+            <p>Los Angeles Police Department</p>
 
           
         </td>
@@ -1085,7 +1201,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>County of Los Angeles</p>
+            <p>City of Los Angeles</p>
 
           
         </td>
@@ -1104,8 +1220,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://www.lamayor.org/report-status-women-girls-los-angeles" target="_blank">
-                2015 City of Los Angeles Report on the Status of Women and Girls, Part 5: Public Safety (Los Angeles County Community Health Survey, 2011 data) <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://data.lacity.org/A-Safe-City/Crime-Data-from-2010-to-Present/63jg-8b9z" target="_blank">
+                Crime Data from 2010 to Present <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1310,7 +1426,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20191126230746'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20191126235927'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
