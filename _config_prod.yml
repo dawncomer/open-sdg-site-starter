@@ -14,3 +14,5 @@ environment: production
 remote_data_prefix: https://d122m6ral8ka7l.cloudfront.net
 remote_translations:
   - https://open-sdg.github.io/sdg-translations/translations-0.8.1.json
+analytics:
+  ga_prod: 'UA-97843103-26'
