@@ -46,4 +46,3 @@ Our website works with most of the latest versions of the commonly used browsers
 
 ### Can other cities copy this website?
 Yes. This site is built and hosted using 100% free software and services, so other cities and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io/en/latest/quick-start/). The City of Los Angeles has also written a [wiki](https://github.com/dawncomer/open-sdg-site-starter/wiki) to help other local governments adapt the platform for their own needs. Cities and localities exploring how to report their own SDGs data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
-test
