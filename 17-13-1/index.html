@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200309001053">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200309183937">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200309001053"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200309183937"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -311,17 +311,766 @@ var translations = {
   
 
   <div class="row" id="indicatorData" data-indicatorid='indicator_17-13-1' data-id="17-13-1" data-country=""
-  data-charttitle="Macroeconomic Dashboard" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
+  data-charttitle="Macroeconomic Dashboard" data-measurementunit="" data-datasource="US Department of Commerce Bureau of Economic Analysis, United States Census Bureau, City of Los Angeles" data-copyright=""
+  data-geographicalarea="" data-footnote="" data-showdata="true" data-graphtype="bar"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-main" class="col-md-12">
+    <div id="indicator-sidebar" class="col-md-3">
+      <div id="toolbar">
+        <span id="series-help">
+          <h4>Sub-categories</h4>
+          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+        </span>
+        <p>Click on the legend to remove individual lines from the chart.</p>
+        <div id="fields">
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        </div>
+      </div>
+      <div id="units"></div>
+    </div>
+    <div id="indicator-main" class="col-md-9">
     
+
+      
+      
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://dawncomer.github.io/open-sdg-data-starter/headline/17-13-1.csv" class="btn btn-primary btn-download" download="indicator_17-13-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+
+    <a href="https://dawncomer.github.io/open-sdg-data-starter/data/17-13-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_17-13-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption></caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Units</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">756470973.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">788081634.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">820353615.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">858170811.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">912384865.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">945600303.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">995114475.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>GPD (Thousands of current dollars)</td>
+          
+          
+          
+          <td class="table-value">1047661346.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">41173.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">43345.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">42439.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">44375.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">47402.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">48330.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>Real per capita personal income (Chained 2012 dollars)</td>
+          
+          
+          
+          <td class="table-value">49222.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>Unemployment rate</td>
+          
+          
+          
+          <td class="table-value">9.6</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>Unemployment rate</td>
+          
+          
+          
+          <td class="table-value">8.2</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>Unemployment rate</td>
+          
+          
+          
+          <td class="table-value">6.8</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>Unemployment rate</td>
+          
+          
+          
+          <td class="table-value">6.2</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>Unemployment rate</td>
+          
+          
+          
+          <td class="table-value">5.5</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>Unemployment rate</td>
+          
+          
+          
+          <td class="table-value">5.2</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7199859.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7447547.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7709460.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7069720.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7420932.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">8582563.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">8776961.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">9292135.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>City Expense Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">9899768.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">6749232.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">6871560.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7246117.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">7685509.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">8122943.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">8582563.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">8776961.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">9292126.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>City Revenue Budget (Thousands of dollars)</td>
+          
+          
+          
+          <td class="table-value">9899768.0</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    
+    
+  </div>
+
+</div>
 
       
 
       <section>
 
+        
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        <div class="async-loaded" style="display:none">
+          <ul class="nav nav-tabs data-view" role="tablist">
+            <li role="presentation" class="nav-item active">
+              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+>Chart</a>
+            </li>
+            <li role="presentation" class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Table</a>
+            </li>
+            <li role="presentation" class="nav-item map" style="display:none">
+              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+>Map</a>
+            </li></ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content data-view">
+            <div role="tabpanel" class="tab-pane active" id="chartview">
+              
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <div id="chart-canvas">
+        <h3 class="chart-title">Macroeconomic Dashboard</h3>
+        <div id="chart" class="plot-container">
+          
+<canvas></canvas>
+
+
+        </div>
+        <div id="plotLegend"></div>
+      </div>
+      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
+        Download Chart Image
+      </button>
+    </div>
+    <div id="chartSelectionDownload"></div>
+
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tableview">
+              <div id="selectionsTable"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+              <div id="map">
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Loading map" />
+              </div>
+            </div>
+            
+          </div>
+        </div>
         
 
         <!-- Nav tabs -->
@@ -512,8 +1261,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/c668a137c13a542f480233edcff3476972c2b897" target="_blank">
-                2018-10-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/099a15615258954070977b6be70e35ab9a475b9a" target="_blank">
+                2020-03-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -537,8 +1286,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/bd33705112c77d4ccfd22d591daf917d2ccf9c48" target="_blank">
-                2019-10-04: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/9e52cca9d64cdc185343697a3f0a561b0e4dc9bb" target="_blank">
+                2020-03-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -889,6 +1638,8 @@ data-event-label="Change to Sources tab"
     
     <div class="col-md-6">
       
+        <h4>Source 1</h4>
+      
       <table class="table table-hover">
   
   
@@ -933,7 +1684,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            
+            <p>US Department of Commerce Bureau of Economic Analysis</p>
 
           
         </td>
@@ -972,7 +1723,270 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
+            <p>Los Angeles, Long Beach, Anaheim Metropolitan Statistical Area</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
             
+            
+            
+            
+
+            
+              <a href="https://apps.bea.gov/iTable/iTable.cfm?isuri=1&reqid=70&step=1#isuri=1&reqid=70&step=1" target="_blank">
+                Regional Data <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+  
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+   
+    
+    <div class="col-md-6">
+      
+        <h4>Source 2</h4>
+      
+      <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>United States Census Bureau</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Los Angeles, Long Beach, Anaheim Metropolitan Statistical Area</p>
 
           
         </td>
@@ -1114,6 +2128,241 @@ data-event-label="Change to Sources tab"
   
   
   
+</table>
+
+    </div>
+    
+   
+    
+    <div class="col-md-6">
+      
+        <h4>Source 3</h4>
+      
+      <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>City of Los Angeles</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>City of Los Angeles</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+  
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -1193,7 +2442,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200309001053'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200309183937'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
