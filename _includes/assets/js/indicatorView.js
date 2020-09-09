@@ -423,7 +423,7 @@ var indicatorView = function (model, options) {
     $(this._legendElement).html(view_obj._chartInstance.generateLegend());
   };
 
-   //TRENDS: Linear Regression
+   //START TRENDS LINE
   function linearRegression(chartInfo) {
     const years = chartInfo.labels.map((x, i) => {
       return x;
@@ -472,10 +472,21 @@ var indicatorView = function (model, options) {
     const my_regression = regression.linear(clean_data);
     console.log("Linear Regression Equation:", my_regression);
 
-    const useful_points = my_regression.points.map(([x, y]) => {
+    var uniques = [];
+    var itemsFound = {};
+    for (var i = 0, l = my_regression.points.length; i < l; i++) {
+      var stringified = JSON.stringify(my_regression.points[i]);
+      if (itemsFound[stringified]) {
+        continue;
+      }
+      uniques.push(my_regression.points[i]);
+      itemsFound[stringified] = true;
+    }
+    console.log("uniques", uniques);
+
+    const useful_points = uniques.map(([x, y]) => {
       return y;
     });
-
     // const trendsPoints = Array.from(new Set(useful_points));
 
     const trendsLine = {
@@ -489,6 +500,8 @@ var indicatorView = function (model, options) {
 
     chartInfo.datasets.push(trendsLine);
   }
+
+  //END TRENDSLINE
 
   this.createPlot = function (chartInfo) {
     var that = this;
