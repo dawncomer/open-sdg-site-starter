@@ -1805,7 +1805,6 @@ var indicatorView = function (model, options) {
     const useful_points = uniques.map(([x, y]) => {
       return y;
     });
-    // const trendsPoints = Array.from(new Set(useful_points));
 
     const trendsLine = {
       label: "Trends Line",
