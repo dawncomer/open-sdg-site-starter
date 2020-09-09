@@ -403,6 +403,8 @@ var indicatorView = function (model, options) {
         chartInfo.selectedUnit
       );
     }
+    //Linear Regression
+    linearRegression(chartInfo);
     // Create a temp object to alter, and then apply. We go to all this trouble
     // to avoid completely replacing view_obj._chartInstance -- and instead we
     // just replace it's properties: "type", "data", and "options".
@@ -416,10 +418,6 @@ var indicatorView = function (model, options) {
     view_obj._chartInstance.data = updatedConfig.data;
     view_obj._chartInstance.options = updatedConfig.options;
 
-    //Linear Regression Update
-    chartInfo.datasets.push(linearRegression(view_obj._chartInstance.data));
-    console.log(view_obj._chartInstance.data);
-    //End Linear Regression Update
     view_obj._chartInstance.update(1000, true);
 
     $(this._legendElement).html(view_obj._chartInstance.generateLegend());
@@ -489,7 +487,7 @@ var indicatorView = function (model, options) {
       fill: false,
     };
 
-    return trendsLine;
+    chartInfo.datasets.push(trendsLine);
   }
 
   //END TRENDS: Linear Regression
@@ -497,6 +495,7 @@ var indicatorView = function (model, options) {
 
   this.createPlot = function (chartInfo) {
     var that = this;
+    linearRegression(chartInfo);
     var chartConfig = {
       type: this._model.graphType,
       data: chartInfo,
