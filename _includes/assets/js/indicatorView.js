@@ -423,7 +423,7 @@ var indicatorView = function (model, options) {
     $(this._legendElement).html(view_obj._chartInstance.generateLegend());
   };
 
-  //TRENDS: Linear Regression
+   //TRENDS: Linear Regression
   function linearRegression(chartInfo) {
     const years = chartInfo.labels.map((x, i) => {
       return x;
@@ -476,11 +476,11 @@ var indicatorView = function (model, options) {
       return y;
     });
 
-    const trendsPoints = Array.from(new Set(useful_points));
+    // const trendsPoints = Array.from(new Set(useful_points));
 
     const trendsLine = {
       label: "Trends Line",
-      data: trendsPoints,
+      data: useful_points,
       type: "line",
       borderColor: "rgb(255,99,132)",
       backgroundColor: "rgb(255,99,132)",
@@ -489,9 +489,6 @@ var indicatorView = function (model, options) {
 
     chartInfo.datasets.push(trendsLine);
   }
-
-  //END TRENDS: Linear Regression
-
 
   this.createPlot = function (chartInfo) {
     var that = this;
