@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20201020000938">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20201020205034">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -140,7 +140,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20201020000938"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20201020205034"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-goal-by-target">
@@ -474,8 +474,8 @@ var translations = {
         <a href="/open-sdg-site-starter/1-5-1">
           <span>
             1.5.1
-            <span class="status notstarted">
-              Exploring data sources
+            <span class="status complete">
+              Reported online
             </span>
           </span>
           Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population
@@ -497,8 +497,8 @@ var translations = {
         <a href="/open-sdg-site-starter/1-5-2">
           <span>
             1.5.2
-            <span class="status notstarted">
-              Exploring data sources
+            <span class="status complete">
+              Reported online
             </span>
           </span>
           Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)
@@ -592,7 +592,7 @@ var translations = {
       
       
 
-      <div class="col-md-12 ">
+      <div class="col-md-12 indicator-revised">
         <a href="/open-sdg-site-starter/1-a-1">
           <span>
             1.a.1
@@ -601,6 +601,13 @@ var translations = {
             </span>
           </span>
           Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-revised warning">Revised</li>
+            
+            </ul>
           
         </a>
       </div>
@@ -624,29 +631,6 @@ var translations = {
             </span>
           </span>
           Proportion of total government spending on essential services (education, health and social protection)
-          
-        </a>
-      </div>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12 ">
-        <a href="/open-sdg-site-starter/1-a-3">
-          <span>
-            1.a.3
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
-          </span>
-          Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP
           
         </a>
       </div>
@@ -732,7 +716,7 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/regression@2.0.1/dist/regression.min.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201020000938'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201020205034'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
