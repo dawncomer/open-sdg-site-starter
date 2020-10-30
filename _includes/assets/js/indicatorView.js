@@ -497,7 +497,7 @@ var indicatorView = function (model, options) {
       fill: false,
     };
 
-    chartInfo.datasets.push(trendsLine);
+    //chartInfo.datasets.push(trendsLine); **COMMENTED OUT TO TURN OF TRENDS LINE
   }
 
   //END TRENDSLINE
