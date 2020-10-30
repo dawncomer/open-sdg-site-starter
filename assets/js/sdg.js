@@ -1722,7 +1722,7 @@ var indicatorView = function (model, options) {
       );
     }
     //Linear Regression
-    linearRegression(chartInfo);
+    //linearRegression(chartInfo); **REMOVE COMMENT TO TURN BACK ON
     // Create a temp object to alter, and then apply. We go to all this trouble
     // to avoid completely replacing view_obj._chartInstance -- and instead we
     // just replace it's properties: "type", "data", and "options".
@@ -1815,14 +1815,14 @@ var indicatorView = function (model, options) {
       fill: false,
     };
 
-    chartInfo.datasets.push(trendsLine);
+    //chartInfo.datasets.push(trendsLine); **COMMENTED OUT TO TURN OF TRENDS LINE
   }
 
   //END TRENDSLINE
 
   this.createPlot = function (chartInfo) {
     var that = this;
-    linearRegression(chartInfo);
+    //linearRegression(chartInfo); **REMOVE COMMENT TO TURN BACK ON
     var chartConfig = {
       type: this._model.graphType,
       data: chartInfo,

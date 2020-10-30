@@ -816,7 +816,7 @@
           "status": "notapplicable"
         },{
           "id": "7-b-1",
-          "title": "Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services",
+          "title": "Installed renewable energy-generating capacity in low-income communities (in watts per capita)",
           "description": "",
           "target": "By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States and landlocked developing countries, in accordance with their respective programmes of support",
           "keywords": "",
@@ -878,7 +878,7 @@
           "status": "complete"
         },{
           "id": "8-4-1",
-          "title": "Material Footprint in the City of Los Angeles",
+          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
           "description": "",
           "target": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead",
           "keywords": "",
@@ -918,7 +918,7 @@
           "status": "complete"
         },{
           "id": "8-3-1",
-          "title": "Number of Privately Held Businesses in the City of Los Angeles, with Annual Revenue ($M) and Annual Payroll ($M)",
+          "title": "Proportion of informal employment in non‐agriculture employment, by sex",
           "description": "",
           "target": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services",
           "keywords": "",
