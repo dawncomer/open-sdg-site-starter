@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20201103215327">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20201103235710">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20201103215327"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20201103235710"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -294,6 +294,8 @@ var translations = {
       <div id="page-content">
   <p><strong>Non-Statistical Indicator</strong></p>
 
+<p>Over 20% of the land area in the City of Los Angeles is designated Open Space in the <a href="https://planning.lacity.org/plans-policies/general-plan-overview">General Plan</a>. Open Space is land which is essentially free of structures and buildings and/or natural in character and functions. The Santa Monica Mountains and Griffith Park compose 30% of this open space area.</p>
+
 <p>The City of Los Angeles has approximately 6 million trees. Approximately 63 square miles (or 15% of the city total area) is zoned for Open Space which includes parts of the Santa Monica Mountains and Griffith Park. L.A.’s Green New Deal outlines two milestones to plant and maintain at least 90,000 trees and complete a citywide tree inventory by 2021.</p>
 
 </div>
@@ -303,7 +305,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Forest area as a proportion of total land area</h2>
+      <h2></h2>
     </div>
   </div>
 
@@ -313,7 +315,7 @@ var translations = {
   
 
   <div class="row" id="indicatorData" data-indicatorid='indicator_15-1-1' data-id="15-1-1" data-country=""
-  data-charttitle="Forest area as a proportion of total land area" data-measurementunit="" data-datasource="" data-copyright=""
+  data-charttitle="" data-measurementunit="" data-datasource="City of Los Angeles Department of City Planning" data-copyright=""
   data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
@@ -552,8 +554,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/877455c29c639bccffcbcd5705c0f120976809cb" target="_blank">
-                2019-11-07: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/41b914ce1f7ab0307d4b5ae8c5c480e238d050fa" target="_blank">
+                2020-11-03: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -950,7 +952,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            
+            <p>City of Los Angeles Department of City Planning</p>
 
           
         </td>
@@ -989,7 +991,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>City of Los Angeles</p>
 
           
         </td>
@@ -1007,6 +1009,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://data.lacity.org/A-Well-Run-City/General-Plan-Land-Use/tks4-u9wn" target="_blank">
+                General Plan Land Use <span class="visuallyhidden">opens in a new window</span>
+              </a>
             
 
           
@@ -1212,7 +1218,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/regression@2.0.1/dist/regression.min.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201103215327'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201103235710'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
