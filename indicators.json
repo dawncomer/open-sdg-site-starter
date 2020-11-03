@@ -1208,7 +1208,7 @@
       "title": "",
       "indicators": [{
           "id": "11-a-1",
-          "title": "Whether or not the city has adopted urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space",
+          "title": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",
           "description": "",
           "target": "Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning",
           "keywords": "",
@@ -1240,7 +1240,7 @@
           "status": "complete"
         },{
           "id": "11-b-2",
-          "title": "Whether or not the city has  adopted and implemented local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Whether or not the city has adopted and implemented a disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
           "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels",
           "keywords": "",
@@ -1422,7 +1422,7 @@
           "status": "notstarted"
         },{
           "id": "12-1-1",
-          "title": "Whether or not the city is developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
+          "title": "Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies",
           "description": "",
           "target": "Implement the 10-Year Framework of Programmes on Sustainable Consumption and Production Patterns, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries",
           "keywords": "",
