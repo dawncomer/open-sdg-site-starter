@@ -20,7 +20,7 @@
           "status": "complete"
         },{
           "id": "1-5-3",
-          "title": "Whether or not the country has adopted and implemented a national disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Whether or not the city has adopted and implemented a national disaster risk reduction strategy in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
           "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters",
           "keywords": "",
@@ -368,7 +368,7 @@
           "status": "complete"
         },{
           "id": "3-5-2",
-          "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
           "description": "",
           "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
           "keywords": "",
@@ -1632,7 +1632,7 @@
           "status": "notstarted"
         },{
           "id": "15-a-1",
-          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "title": "Public expenditure on conservation and sustainable use of biodiversity and ecosystems",
           "description": "",
           "target": "Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems",
           "keywords": "",
@@ -1862,7 +1862,7 @@
           "status": "notstarted"
         },{
           "id": "16-5-1",
-          "title": "Number of persons who had at least one contact with a public official and who paid a bribe to a public official, and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
           "description": "All public corruption prosecutions within each district including cases handled by the United States Attorneys’ Offices and the Justice Department's Public Integrity Section.",
           "target": "Substantially reduce corruption and bribery in all their forms",
           "keywords": "",
@@ -1916,7 +1916,7 @@
           "status": "notapplicable"
         },{
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "Whether or not the city has mechanisms in place to enhance policy coherence of sustainable development",
           "description": "",
           "target": "Enhance policy coherence for sustainable development",
           "keywords": "",
@@ -1932,7 +1932,7 @@
           "status": "complete"
         },{
           "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
+          "title": "Exports and imports of Los Angeles Customs District by country group category",
           "description": "",
           "target": "Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020",
           "keywords": "",
@@ -1948,7 +1948,7 @@
           "status": "complete"
         },{
           "id": "17-18-1",
-          "title": "Proportion of sustainable development indicators reported with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
+          "title": "Statistical capacity indicator for Sustainable Development Goal monitoring",
           "description": "",
           "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
           "keywords": "",
@@ -1964,7 +1964,7 @@
           "status": "notstarted"
         },{
           "id": "17-6-1",
-          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
+          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
           "description": "",
           "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism",
           "keywords": "",
@@ -1988,7 +1988,7 @@
           "status": "notapplicable"
         },{
           "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
+          "title": "Whether or not the city has local statistical legislation that complies with the Fundamental Principles of Official Statistics",
           "description": "",
           "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
           "keywords": "",
@@ -2012,7 +2012,7 @@
           "status": "complete"
         },{
           "id": "17-18-3",
-          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
+          "title": "Whether or not the city has a local statistical plan that is fully funded and under implementation, by source of funding",
           "description": "",
           "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts",
           "keywords": "",
@@ -2060,7 +2060,7 @@
           "status": "notapplicable"
         },{
           "id": "17-19-2",
-          "title": "Whether or not the city (a) has conducted at least one population and housing census in the last 10 years; and (b) has achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "Whether or not the city has (a) conducted at least one population and housing census in the last 10 years; and (b) achieved 100 percent birth registration and 80 percent death registration",
           "description": "",
           "target": "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries",
           "keywords": "",
