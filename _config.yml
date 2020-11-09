@@ -29,7 +29,10 @@ create_pages:
   pages:
     - folder: /
       layout: frontpage-alt
-      title: Home
+      title: 17 goals to transform our world
+    - folder: /goals
+      layout: goals
+      title: LA data for the Sustainable Development Goals
     - folder: /reporting-status
       layout: reportingstatus
       title: Reporting Status
