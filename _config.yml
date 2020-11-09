@@ -29,15 +29,16 @@ create_pages:
   pages:
     - folder: /
       layout: frontpage-alt
-    - folder: /goals
-      layout: goals
+      title: Home
     - folder: /reporting-status
       layout: reportingstatus
+      title: Reporting Status
     - filename: indicators.json
       folder: /
       layout: indicator-json
     - folder: /search
       layout: search
+      title: Search results
 
 analytics:
   ga_prod: ''
