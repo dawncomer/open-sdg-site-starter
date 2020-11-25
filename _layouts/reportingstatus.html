@@ -4,6 +4,7 @@
 
 <div id="main-content" class="container reportingstatus">
 
+    
   <h1>{{ t.status.reporting_status }}</h1>
 
   {%- assign overall = site.data.reporting.overall -%}
@@ -40,7 +41,8 @@
     <!--</li>-->
     <br style="clear:both;">
   </div>
-
+  
+  
   <h2>{{ t.status.status_by_goal }}</h2>
 
   {%- for goalreport in site.data.reporting.goals -%}

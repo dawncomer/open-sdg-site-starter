@@ -114,3 +114,39 @@ remote_theme: open-sdg/open-sdg@0.9.4
 # Apply any custom CSS.
 custom_css:
   - /assets/css/custom.css
+  
+# This is the same as what is used on the current frontpage.
+frontpage_introduction_banner:
+  title: My frontpage introduction banner title
+  description: My frontpage introduction banner description
+
+# This controls the text that appears above the goals grid.
+frontpage_goals_grid:
+  title: The Sustainable Development Goals
+  description: Click on each [goal](../goals) for data for Sustainable Development Goal global indicators.
+
+# This controls the three-column "cards" that appear below the goals grid.
+frontpage_cards:
+  - title: Download all data
+    # This "feature" is used for baked-in stuff like "bulk_download".
+    include: components/download-all-data.html
+    # Optionally control the color of the line above the card title.
+    rule_color: green
+  - title: Useful resources
+    rule_color: blue
+    # Control the content of the card - can use Markdown.
+    content: |
+      * [Useful resource](https://example.com)
+      * [Useful resource](https://example.com)
+      * [Useful resource](https://example.com)
+      * [Useful resource](https://example.com)
+      * [Useful resource](https://example.com)
+  - title: Publications
+    rule_color: orange
+    content: |
+      * [Publication](https://example.com)
+      * [Publication](https://example.com)
+      * [Publication](https://example.com)
+    # Optionally add a button at the bottom of the card.
+    button_label: View more publications
+    button_link: https://example.com  
