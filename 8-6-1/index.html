@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20210108000940">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20210108211601">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20210108000940"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20210108211601"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -301,7 +301,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Proportion of Disconnected Youth (aged 15-24 years) not enrolled in education, employment or training</h2>
+      <h2>Proportion of Disconnected Youth (aged 16-24 years) not enrolled in education, employment or training</h2>
     </div>
   </div>
 
@@ -310,18 +310,335 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_8-6-1' data-id="8-6-1" data-country="City of Los Angeles"
-  data-charttitle="Proportion of Disconnected Youth (aged 15-24 years) not enrolled in education, employment or training" data-measurementunit="Percentage" data-datasource="" data-copyright=""
-  data-geographicalarea="City of Los Angeles" data-footnote="" data-showdata="false" data-graphtype="bar"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_8-6-1' data-id="8-6-1" data-country="Los Angeles County"
+  data-charttitle="Proportion of Disconnected Youth (aged 16-24 years) not enrolled in education, employment or training" data-measurementunit="Percentage" data-datasource="" data-copyright=""
+  data-geographicalarea="Los Angeles County" data-footnote="" data-showdata="true" data-graphtype="bar"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-main" class="col-md-12">
+    <div id="indicator-sidebar" class="col-md-3">
+      <div id="toolbar">
+        <span id="series-help">
+          <h4>Sub-categories</h4>
+          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+        </span>
+        <p>Click on the legend to remove individual lines from the chart.</p>
+        <div id="fields">
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        </div>
+      </div>
+      <div id="units"></div>
+    </div>
+    <div id="indicator-main" class="col-md-9">
     
+
+      
+      
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://dawncomer.github.io/open-sdg-data-starter/headline/8-6-1.csv" class="btn btn-primary btn-download" download="indicator_8-6-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+
+    <a href="https://dawncomer.github.io/open-sdg-data-starter/data/8-6-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_8-6-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption></caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Units</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>Disconnected Youth Percentage</td>
+          
+          
+          
+          <td class="table-value">12.03</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>Disconnected Youth Percentage</td>
+          
+          
+          
+          <td class="table-value">10.44</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>Disconnected Youth Percentage</td>
+          
+          
+          
+          <td class="table-value">10.05</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>Disconnected Youth Percentage</td>
+          
+          
+          
+          <td class="table-value">10.45</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>Disconnected Youth Percentage</td>
+          
+          
+          
+          <td class="table-value">10.47</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>Disconnected Youth Percentage</td>
+          
+          
+          
+          <td class="table-value">10.08</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>Total Disconnected Youth</td>
+          
+          
+          
+          <td class="table-value">155030.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>Total Disconnected Youth</td>
+          
+          
+          
+          <td class="table-value">126828.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>Total Disconnected Youth</td>
+          
+          
+          
+          <td class="table-value">121129.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>Total Disconnected Youth</td>
+          
+          
+          
+          <td class="table-value">124611.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>Total Disconnected Youth</td>
+          
+          
+          
+          <td class="table-value">124909.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>Total Disconnected Youth</td>
+          
+          
+          
+          <td class="table-value">118299.0</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    
+    
+  </div>
+
+</div>
 
       
 
       <section>
 
+        
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        <div class="async-loaded" style="display:none">
+          <ul class="nav nav-tabs data-view" role="tablist">
+            <li role="presentation" class="nav-item active">
+              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+>Chart</a>
+            </li>
+            <li role="presentation" class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Table</a>
+            </li>
+            <li role="presentation" class="nav-item map" style="display:none">
+              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+>Map</a>
+            </li></ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content data-view">
+            <div role="tabpanel" class="tab-pane active" id="chartview">
+              
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <div id="chart-canvas">
+        <h3 class="chart-title">Proportion of Disconnected Youth (aged 16-24 years) not enrolled in education, employment or training</h3>
+        <div id="chart" class="plot-container">
+          
+<canvas></canvas>
+
+
+        </div>
+        <div id="plotLegend"></div>
+      </div>
+      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
+        Download Chart Image
+      </button>
+    </div>
+    <div id="chartSelectionDownload"></div>
+
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tableview">
+              <div id="selectionsTable"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+              <div id="map">
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Loading map" />
+              </div>
+            </div>
+            
+          </div>
+        </div>
         
 
         <!-- Nav tabs -->
@@ -389,7 +706,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Disconnection of 16- to 24-Year-Old Youth in Los Angeles (2011-2015)</p>
+            <p>Disconnection of 16- to 24-Year-Old Youth in Los Angeles</p>
 
           
         </td>
@@ -428,7 +745,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>City of Los Angeles</p>
+            <p>Los Angeles County</p>
 
           
         </td>
@@ -454,7 +771,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Disconnected youth is calculated as the proportion of youths aged 16-24 who are not enrolled in school or currently employed. Not enrolled in school is defined as not having attended school in the last 3 months. Not currently employed is defined as unemployed or not in labor force. Youth in the armed forces are not counted as being not employed. The Geographical area covers all Public Use Microdata Areas (PUMAs) that are within the boundaries of Los Angeles County. This may undercount youths that are in PUMAs that are partially within County boundaries.</p>
 
           
         </td>
@@ -525,8 +842,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/a53dca0727c5428c1cc0fe4be903878e9f9ea3de" target="_blank">
-                2019-05-26: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/295676e52344ade8845fe4ada09e5bec2efa151e" target="_blank">
+                2021-01-08: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -550,8 +867,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/11e58ba75cd27468f3c6eb3f8c31fb142ed685f2" target="_blank">
-                2020-10-30: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/dawncomer/open-sdg-data-starter/commit/82af4da5e7f9b244aa277dd9b0a9e8fc8130be30" target="_blank">
+                2021-01-08: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -960,7 +1277,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/regression@2.0.1/dist/regression.min.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210108000940'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210108211601'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
