@@ -304,7 +304,7 @@
           "status": "notstarted"
         },{
           "id": "3-5-2",
-          "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "Percent of adults (ages 18 years and older) who reported binge drinking in the past month",
           "description": "",
           "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
           "keywords": "",
@@ -1514,7 +1514,7 @@
           "status": "notapplicable"
         },{
           "id": "14-7-1",
-          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
+          "title": "Sustainable fisheries as a proportion of GDP",
           "description": "",
           "target": "By 2030, increase the economic benefits to small island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism",
           "keywords": "",
