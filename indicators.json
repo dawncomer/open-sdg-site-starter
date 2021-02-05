@@ -304,7 +304,7 @@
           "status": "notstarted"
         },{
           "id": "3-5-2",
-          "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "Percent of adults (ages 18 years and older) who reported binge drinking in the past month",
           "description": "",
           "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol",
           "keywords": "",
@@ -430,6 +430,14 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/3-d-1",
           "status": "complete"
+        },{
+          "id": "3-d-2",
+          "title": "Percentage of bloodstream infections due to selected antimicrobial-resistant organisms",
+          "description": "",
+          "target": "Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/3-d-2",
+          "status": "notstarted"
         }]
     }
   },{
@@ -941,14 +949,6 @@
           "href": "/open-sdg-site-starter/8-9-1",
           "status": "complete"
         },{
-          "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
-          "description": "",
-          "target": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/8-9-2",
-          "status": "complete"
-        },{
           "id": "8-b-1",
           "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
           "description": "",
@@ -1143,6 +1143,14 @@
           "target": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies",
           "keywords": "",
           "href": "/open-sdg-site-starter/10-7-4",
+          "status": "notstarted"
+        },{
+          "id": "10-c-1",
+          "title": "Remittance costs as a proportion of the amount remitted",
+          "description": "",
+          "target": "By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/10-c-1",
           "status": "notstarted"
         },{
           "id": "10-x-1",
